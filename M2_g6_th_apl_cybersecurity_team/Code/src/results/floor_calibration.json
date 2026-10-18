@@ -1,0 +1,66 @@
+{
+ "seed": 777,
+ "n_graphs": 40,
+ "n_true_edges": 1606,
+ "n_non_edges": 19266,
+ "rule": "largest floor in grid pinning <= 1% of true edges",
+ "chosen": 0.006,
+ "released_floor": 0.001,
+ "table": [
+  {
+   "floor": 0.001,
+   "true_edges_pinned": 0.0012453300124533001,
+   "non_edges_pinned": 0.5078376414408803
+  },
+  {
+   "floor": 0.002,
+   "true_edges_pinned": 0.00311332503113325,
+   "non_edges_pinned": 0.6220803488009966
+  },
+  {
+   "floor": 0.003,
+   "true_edges_pinned": 0.0049813200498132005,
+   "non_edges_pinned": 0.6830167133810858
+  },
+  {
+   "floor": 0.004,
+   "true_edges_pinned": 0.00560398505603985,
+   "non_edges_pinned": 0.7221011107650783
+  },
+  {
+   "floor": 0.005,
+   "true_edges_pinned": 0.00809464508094645,
+   "non_edges_pinned": 0.7489359493408076
+  },
+  {
+   "floor": 0.006,
+   "true_edges_pinned": 0.00933997509339975,
+   "non_edges_pinned": 0.7684002906674972
+  },
+  {
+   "floor": 0.008,
+   "true_edges_pinned": 0.012453300124533,
+   "non_edges_pinned": 0.7989203778677463
+  },
+  {
+   "floor": 0.01,
+   "true_edges_pinned": 0.014943960149439602,
+   "non_edges_pinned": 0.8193190075781169
+  },
+  {
+   "floor": 0.02,
+   "true_edges_pinned": 0.024283935242839352,
+   "non_edges_pinned": 0.8766220284438908
+  },
+  {
+   "floor": 0.03,
+   "true_edges_pinned": 0.033623910336239106,
+   "non_edges_pinned": 0.9041835357624831
+  },
+  {
+   "floor": 0.05,
+   "true_edges_pinned": 0.05105853051058531,
+   "non_edges_pinned": 0.9440984117097477
+  }
+ ]
+}

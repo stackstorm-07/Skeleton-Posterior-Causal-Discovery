@@ -1,0 +1,11 @@
+{'d': 10, 'n': 500, 'standardized': True, 'seed': 0, 'elapsed': 6.19, 't_optimize': 6.01, 't_select': 0.18, 'n_fev': 24281, 'n_solves': 46, 'n_outer': 8, 'converged': True, 'timed_out': False, 'h': 0.0}
+{'d': 10, 'n': 500, 'standardized': True, 'seed': 1, 'elapsed': 17.42, 't_optimize': 17.38, 't_select': 0.03, 'n_fev': 63350, 'n_solves': 95, 'n_outer': 8, 'converged': True, 'timed_out': False, 'h': 0.0}
+{'d': 10, 'n': 500, 'standardized': False, 'seed': 0, 'elapsed': 4.01, 't_optimize': 4.0, 't_select': 0.01, 'n_fev': 19565, 'n_solves': 64, 'n_outer': 13, 'converged': True, 'timed_out': False, 'h': 0.0}
+{'d': 10, 'n': 500, 'standardized': False, 'seed': 1, 'elapsed': 5.24, 't_optimize': 5.24, 't_select': 0.0, 'n_fev': 20574, 'n_solves': 60, 'n_outer': 12, 'converged': True, 'timed_out': False, 'h': 0.0}
+{'d': 20, 'n': 500, 'standardized': True, 'seed': 0, 'elapsed': 71.49, 't_optimize': 71.27, 't_select': 0.22, 'n_fev': 118548, 'n_solves': 124, 'n_outer': 10, 'converged': True, 'timed_out': False, 'h': 0.0}
+{'d': 20, 'n': 500, 'standardized': True, 'seed': 1, 'elapsed': 67.89, 't_optimize': 67.45, 't_select': 0.44, 'n_fev': 113555, 'n_solves': 114, 'n_outer': 9, 'converged': True, 'timed_out': False, 'h': 0.0}
+{'d': 20, 'n': 500, 'standardized': False, 'seed': 0, 'elapsed': 56.39, 't_optimize': 56.14, 't_select': 0.24, 'n_fev': 89565, 'n_solves': 116, 'n_outer': 12, 'converged': True, 'timed_out': False, 'h': 0.0}
+{'d': 20, 'n': 500, 'standardized': False, 'seed': 1, 'elapsed': 24.78, 't_optimize': 24.78, 't_select': 0.0, 'n_fev': 35352, 'n_solves': 67, 'n_outer': 12, 'converged': True, 'timed_out': False, 'h': 0.0}
+{'d': 30, 'n': 500, 'standardized': True, 'seed': 0, 'elapsed': 163.39, 't_optimize': 162.54, 't_select': 0.85, 'n_fev': 137124, 'n_solves': 136, 'n_outer': 10, 'converged': True, 'timed_out': False, 'h': 0.0}
+{'d': 30, 'n': 500, 'standardized': True, 'seed': 1, 'elapsed': 173.17, 't_optimize': 171.15, 't_select': 2.02, 'n_fev': 139610, 'n_solves': 139, 'n_outer': 10, 'converged': True, 'timed_out': False, 'h': 0.0}
+{'d': 30, 'n': 500, 'standardized': False, 'seed': 0, 'elapsed': 78.56, 't_optimize': 78.53, 't_select': 0.03, 'n_fev': 67569, 'n_solves': 95, 'n_outer': 12, 'converged': True, 'timed_out': False, 'h': 0.0}

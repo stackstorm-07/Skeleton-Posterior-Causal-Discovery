@@ -1,0 +1,13 @@
+{'variant': 'correct (p <= alpha)', 'screen_keeps_true_edges': 0.981, 'screen_keeps_non_edges': 0.413, 'mb_recall_of_true_neighbours': 0.659, 'mb_mean_size': 7.849}
+{'variant': 'legacy (p > alpha)', 'screen_keeps_true_edges': 0.019, 'screen_keeps_non_edges': 0.587, 'mb_recall_of_true_neighbours': 0.011, 'mb_mean_size': 10.723}
+  (6s)
+{'auroc': 0.988, 'auprc': 0.936, 'kl': 0.062, 'recall_p05': 0.943, 'recall_p10': 0.912, 'variant': 'A  corrected, MB-classifier stage 0', 'train_seconds': 74.97, 'auroc_sd': 0.011, 'n_test': 40}
+{'auroc': 0.976, 'auprc': 0.915, 'kl': 0.076, 'recall_p05': 0.918, 'recall_p10': 0.872, 'variant': 'B  legacy-inverted, MB-classifier stage 0', 'train_seconds': 80.445, 'auroc_sd': 0.018, 'n_test': 40}
+{'auroc': 0.981, 'auprc': 0.92, 'kl': 0.072, 'recall_p05': 0.925, 'recall_p10': 0.877, 'variant': 'C  corrected, order-0 screen stage 0', 'train_seconds': 35.667, 'auroc_sd': 0.015, 'n_test': 40}
+{'auroc': 0.975, 'auprc': 0.903, 'kl': 0.08, 'recall_p05': 0.947, 'recall_p10': 0.865, 'variant': 'D  legacy (released), order-0 screen', 'train_seconds': 39.039, 'auroc_sd': 0.017, 'n_test': 40}
+{'variant': 'B  legacy-inverted, MB-classifier stage 0', 'metric': 'auroc', 'mean_gain_of_A': 0.011626076581849743, 'se': 0.001980442515697071, 'graphs_where_A_better': 34, 'n': 40}
+{'variant': 'B  legacy-inverted, MB-classifier stage 0', 'metric': 'auprc', 'mean_gain_of_A': 0.02192588798555024, 'se': 0.003580665709579193, 'graphs_where_A_better': 34, 'n': 40}
+{'variant': 'C  corrected, order-0 screen stage 0', 'metric': 'auroc', 'mean_gain_of_A': 0.006741221708660266, 'se': 0.0014872608918139148, 'graphs_where_A_better': 33, 'n': 40}
+{'variant': 'C  corrected, order-0 screen stage 0', 'metric': 'auprc', 'mean_gain_of_A': 0.01622294085111501, 'se': 0.003613314930067254, 'graphs_where_A_better': 30, 'n': 40}
+{'variant': 'D  legacy (released), order-0 screen', 'metric': 'auroc', 'mean_gain_of_A': 0.012245067829608542, 'se': 0.0017446807479144116, 'graphs_where_A_better': 36, 'n': 40}
+{'variant': 'D  legacy (released), order-0 screen', 'metric': 'auprc', 'mean_gain_of_A': 0.03379808538171718, 'se': 0.004192434337868362, 'graphs_where_A_better': 38, 'n': 40}

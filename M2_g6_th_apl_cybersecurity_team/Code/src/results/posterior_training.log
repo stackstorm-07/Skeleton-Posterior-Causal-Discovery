@@ -1,0 +1,4 @@
+  stage 1: candidate pairs/graph 57, candidate recall 0.929
+  stage 2: candidate pairs/graph 50, candidate recall 0.918
+trained on 400 graphs in 203s (features 152s, classifiers 51s); model -> /home/claude/work/proj/petshop2a/petshop_spot/models/skeleton_posterior.pkl
+held-out: {'auroc': 0.989, 'auprc': 0.946, 'kl': 0.057, 'brier': 0.015, 'ece': 0.013, 'recall_p05': 0.957, 'recall_p10': 0.926, 'auroc_stage0': 0.983, 'auroc_stage1': 0.988, 'auroc_stage2': 0.989, 't_features': 0.282, 't_model': 0.009}

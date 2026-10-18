@@ -1,0 +1,172 @@
+[
+ {
+  "scenario": "low_traffic",
+  "n": 589,
+  "d": 29,
+  "n_latent": 13,
+  "latents": [
+   "169.254.170.2_remote",
+   "Evidently_AWS::Evidently",
+   "STS_AWS::STS",
+   "SimpleNotificationService_AWS::SimpleNotificationService",
+   "StepFnStateMachine76D362E8-T67Tg48ke8oK_client",
+   "StepFunctions_AWS::StepFunctions",
+   "lambda_step_priceGreaterThan55",
+   "lambda_step_priceLessThan55",
+   "S3_AWS::S3",
+   "invalid_AWS::DynamoDB::Table",
+   "https://sqs.us-west-2.amazonaws.com/Services-sqspetadoption_AWS::SQS::Queue",
+   "servi-petsi.us-west-2.elb.amazonaws.com_remote",
+   "execute-api.us-west-2.amazonaws.com_remote"
+  ],
+  "truth": {
+   "directed": 30,
+   "bidirected": 1,
+   "pag_edges": 31,
+   "skeleton_edges": 31,
+   "edges_per_node": 1.0689655172413792
+  },
+  "skew_median": 1.670628337058054,
+  "skew_max": 9.14686164109236,
+  "lag1_raw": {
+   "median": 0.2171925232242225,
+   "mean": 0.2746196823708318,
+   "max": 0.715894650423726,
+   "min": -0.055408079436370716
+  },
+  "lag1_gauss_rank": {
+   "median": 0.2636779945737016,
+   "mean": 0.31179579298749566,
+   "max": 0.6630809163604019,
+   "min": -0.05787429377937697
+  },
+  "n_eff_from_median_rho": 343.1995041920432,
+  "issues": [],
+  "in_distribution": true
+ },
+ {
+  "scenario": "high_traffic",
+  "n": 589,
+  "d": 35,
+  "n_latent": 9,
+  "latents": [
+   "169.254.170.2_remote",
+   "STS_AWS::STS",
+   "StepFnStateMachine76D362E8-T67Tg48ke8oK_client",
+   "S3_AWS::S3",
+   "invalid_AWS::DynamoDB::Table",
+   "payforadoption_client",
+   "StepFunctions_AWS::StepFunctions",
+   "execute-api.us-west-2.amazonaws.com_remote",
+   "servi-payfo.us-west-2.elb.amazonaws.com_remote"
+  ],
+  "truth": {
+   "directed": 38,
+   "bidirected": 0,
+   "pag_edges": 38,
+   "skeleton_edges": 38,
+   "edges_per_node": 1.0857142857142856
+  },
+  "skew_median": 2.1612142183100276,
+  "skew_max": 18.39772117531369,
+  "lag1_raw": {
+   "median": 0.30956457411060917,
+   "mean": 0.28513140716528573,
+   "max": 0.7807557370479262,
+   "min": -0.033725963038814644
+  },
+  "lag1_gauss_rank": {
+   "median": 0.292233379145282,
+   "mean": 0.34593385672872323,
+   "max": 0.6964088689620527,
+   "min": 0.0002204352564159273
+  },
+  "n_eff_from_median_rho": 322.6000399085504,
+  "issues": [],
+  "in_distribution": true
+ },
+ {
+  "scenario": "temporal_traffic1",
+  "n": 1652,
+  "d": 31,
+  "n_latent": 10,
+  "latents": [
+   "169.254.170.2_remote",
+   "Evidently_AWS::Evidently",
+   "STS_AWS::STS",
+   "StepFunctions_AWS::StepFunctions",
+   "lambda_step_priceGreaterThan55",
+   "lambda_step_priceLessThan55",
+   "invalid_AWS::DynamoDB::Table",
+   "S3_AWS::S3",
+   "execute-api.us-west-2.amazonaws.com_remote",
+   "servi-petsi.us-west-2.elb.amazonaws.com_remote"
+  ],
+  "truth": {
+   "directed": 32,
+   "bidirected": 1,
+   "pag_edges": 33,
+   "skeleton_edges": 33,
+   "edges_per_node": 1.064516129032258
+  },
+  "skew_median": 2.5477405910241635,
+  "skew_max": 38.88690188937772,
+  "lag1_raw": {
+   "median": 0.15984598163139563,
+   "mean": 0.22420542568419893,
+   "max": 0.6615271544346688,
+   "min": -0.1695109997839884
+  },
+  "lag1_gauss_rank": {
+   "median": 0.3313514581650789,
+   "mean": 0.3284852201827842,
+   "max": 0.7576846601103603,
+   "min": -0.19362582114571333
+  },
+  "n_eff_from_median_rho": 829.6887980531475,
+  "issues": [],
+  "in_distribution": true
+ },
+ {
+  "scenario": "temporal_traffic2",
+  "n": 1652,
+  "d": 31,
+  "n_latent": 10,
+  "latents": [
+   "169.254.170.2_remote",
+   "Evidently_AWS::Evidently",
+   "STS_AWS::STS",
+   "lambda_step_priceGreaterThan55",
+   "lambda_step_priceLessThan55",
+   "StepFunctions_AWS::StepFunctions",
+   "invalid_AWS::DynamoDB::Table",
+   "S3_AWS::S3",
+   "execute-api.us-west-2.amazonaws.com_remote",
+   "servi-petsi.us-west-2.elb.amazonaws.com_remote"
+  ],
+  "truth": {
+   "directed": 32,
+   "bidirected": 1,
+   "pag_edges": 33,
+   "skeleton_edges": 33,
+   "edges_per_node": 1.064516129032258
+  },
+  "skew_median": 2.5477405910241635,
+  "skew_max": 38.88690188937772,
+  "lag1_raw": {
+   "median": 0.15984598163139563,
+   "mean": 0.22420542568419893,
+   "max": 0.6615271544346688,
+   "min": -0.1695109997839884
+  },
+  "lag1_gauss_rank": {
+   "median": 0.3313514581650789,
+   "mean": 0.3284852201827842,
+   "max": 0.7576846601103603,
+   "min": -0.19362582114571333
+  },
+  "n_eff_from_median_rho": 829.6887980531475,
+  "issues": [],
+  "in_distribution": true
+ }
+]

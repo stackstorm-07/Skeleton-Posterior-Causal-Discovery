@@ -1,0 +1,5 @@
+data,posterior AUROC,posterior AUPRC,true edges pinned by 6e-3 floor
+PetShop low traffic,0.830,0.515,32%
+PetShop high traffic,0.931,0.590,16%
+PetShop temporal 1,0.876,0.570,15%
+simulated held-out graphs,0.989,0.946,≈1%

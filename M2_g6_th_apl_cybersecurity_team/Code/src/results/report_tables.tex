@@ -1,0 +1,97 @@
+\begin{table}[t]
+\centering
+\small
+\caption{F1 across scenarios (corrected unless legacy); differences to ABIC in brackets.}
+\label{tab:f1}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+method & Skeleton F1 & Arrowhead F1 & Tail F1 & Arrowhead F1 (legacy) & Tail F1 (legacy) \\
+\midrule
+ABIC & 0.514 & 0.301 & 0.056 & 0.479 & 0.271 \\
+SPOT (calibrated floor 6e-3) & 0.550 (+0.036; W3/L0/T0) & 0.317 (+0.016; W2/L1/T0) & 0.105 (+0.049; W2/L0/T1) & 0.488 (+0.009; W2/L1/T0) & 0.385 (+0.115; W2/L1/T0) \\
+SPOT (released floor 1e-3) & 0.535 (+0.021; W3/L0/T0) & 0.297 (-0.004; W2/L1/T0) & 0.063 (+0.007; W1/L1/T1) & 0.471 (-0.007; W1/L2/T0) & 0.350 (+0.079; W2/L1/T0) \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\caption{Per-scenario results, mean $\pm$ sd over optimizer seeds.}
+\label{tab:perscenario}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrlrrrrr}
+\toprule
+scenario & n / d & seeds & method & Skeleton F1 & TPR & FDR & Arrowhead F1 & Tail F1 \\
+\midrule
+low traffic & 589 / 29 & 3 & ABIC & 0.484 $\pm$ 0.019 & 0.49 $\pm$ 0.02 & 0.52 $\pm$ 0.02 & 0.288 $\pm$ 0.018 & 0.000 $\pm$ 0.000 \\
+low traffic & 589 / 29 & 3 & SPOT-cal & 0.521 $\pm$ 0.028 & 0.51 $\pm$ 0.04 & 0.46 $\pm$ 0.01 & 0.243 $\pm$ 0.015 & 0.000 $\pm$ 0.000 \\
+low traffic & 589 / 29 & 3 & SPOT-1e-3 & 0.514 $\pm$ 0.017 & 0.51 $\pm$ 0.02 & 0.47 $\pm$ 0.04 & 0.298 $\pm$ 0.013 & 0.000 $\pm$ 0.000 \\
+high traffic & 589 / 35 & 3 & ABIC & 0.513 $\pm$ 0.018 & 0.61 $\pm$ 0.04 & 0.56 $\pm$ 0.01 & 0.299 $\pm$ 0.012 & 0.167 $\pm$ 0.059 \\
+high traffic & 589 / 35 & 3 & SPOT-cal & 0.537 $\pm$ 0.014 & 0.60 $\pm$ 0.03 & 0.51 $\pm$ 0.00 & 0.301 $\pm$ 0.059 & 0.181 $\pm$ 0.166 \\
+high traffic & 589 / 35 & 3 & SPOT-1e-3 & 0.536 $\pm$ 0.019 & 0.62 $\pm$ 0.03 & 0.53 $\pm$ 0.02 & 0.258 $\pm$ 0.014 & 0.123 $\pm$ 0.003 \\
+temporal 1 & 1652 / 31 & 2 & ABIC & 0.544 $\pm$ 0.004 & 0.61 $\pm$ 0.00 & 0.51 $\pm$ 0.01 & 0.317 $\pm$ 0.054 & 0.000 $\pm$ 0.000 \\
+temporal 1 & 1652 / 31 & 2 & SPOT-cal & 0.590 $\pm$ 0.019 & 0.62 $\pm$ 0.02 & 0.44 $\pm$ 0.02 & 0.407 $\pm$ 0.024 & 0.133 $\pm$ 0.000 \\
+temporal 1 & 1652 / 31 & 2 & SPOT-1e-3 & 0.554 $\pm$ 0.017 & 0.58 $\pm$ 0.03 & 0.47 $\pm$ 0.01 & 0.334 $\pm$ 0.010 & 0.067 $\pm$ 0.067 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\caption{Runtime breakdown (single core).}
+\label{tab:runtime}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrrrrr}
+\toprule
+method & offline training (one-time) & online posterior / run & optimization / run (all runs) & optimization / run (scenario mean) & vs ABIC & L-BFGS evals / run & free pairs (of d(d-1)/2) & converged \\
+\midrule
+ABIC & n/a & 0 & 115 s & 107 s & 1.00x & 97,916 & all & 8/8 \\
+SPOT (calibrated floor 6e-3) & 203 s & 0.32 s & 46 s & 45 s & 0.42x & 40,331 & 105 & 8/8 \\
+SPOT (released floor 1e-3) & 203 s & 0.32 s & 58 s & 57 s & 0.53x & 49,784 & 198 & 8/8 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\caption{Estimated vs true edge counts.}
+\label{tab:edges}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+scenario & method & est. directed & est. bidirected & true directed & true bidirected \\
+\midrule
+low traffic & ABIC & 7.3 & 25.0 & 30 & 1 \\
+low traffic & SPOT-cal & 9.3 & 19.7 & 30 & 1 \\
+low traffic & SPOT-1e-3 & 9.3 & 20.7 & 30 & 1 \\
+high traffic & ABIC & 12.3 & 39.3 & 38 & 0 \\
+high traffic & SPOT-cal & 14.3 & 32.0 & 38 & 0 \\
+high traffic & SPOT-1e-3 & 13.3 & 37.0 & 38 & 0 \\
+temporal 1 & ABIC & 6.5 & 34.0 & 32 & 1 \\
+temporal 1 & SPOT-cal & 8.5 & 28.0 & 32 & 1 \\
+temporal 1 & SPOT-1e-3 & 7.5 & 28.0 & 32 & 1 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\caption{Skeleton posterior quality.}
+\label{tab:posterior}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrr}
+\toprule
+data & posterior AUROC & posterior AUPRC & true edges pinned by 6e-3 floor \\
+\midrule
+PetShop low traffic & 0.830 & 0.515 & 32\% \\
+PetShop high traffic & 0.931 & 0.590 & 16\% \\
+PetShop temporal 1 & 0.876 & 0.570 & 15\% \\
+simulated held-out graphs & 0.989 & 0.946 & ≈1\% \\
+\bottomrule
+\end{tabular}}
+\end{table}
