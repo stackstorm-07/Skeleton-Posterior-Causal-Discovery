@@ -1,0 +1,254 @@
+{
+ "low_traffic/seed0": {
+  "n_train": 412,
+  "n_test": 177,
+  "sink": "PetSite",
+  "sink_ancestors": [
+   "AWSSimpleSystemsManagement_AWS::AWSSimpleSystemsManagement",
+   "DynamoDB_AWS::DynamoDB",
+   "PGSQL Query_remote",
+   "PetAdoptionStatusUpdater/prod_AWS::ApiGateway::Stage",
+   "PetSearch_AWS::ECS::Fargate",
+   "SSM_AWS::SSM",
+   "SimpleSystemsManagement_AWS::SimpleSystemsManagement",
+   "amazon.com_remote",
+   "lambda_step_priceGreaterThan55_AWS::Lambda",
+   "lambda_step_priceGreaterThan55_AWS::Lambda::Function",
+   "lambda_step_priceLessThan55_AWS::Lambda",
+   "lambda_step_priceLessThan55_AWS::Lambda::Function",
+   "lambda_step_readDDB",
+   "lambda_step_readDDB_AWS::Lambda",
+   "lambda_step_readDDB_AWS::Lambda::Function",
+   "lambdastatusupdater_AWS::Lambda",
+   "lambdastatusupdater_AWS::Lambda::Function",
+   "payforadoption_AWS::ECS::Container",
+   "petInfo_AWS::DynamoDB::Table",
+   "petlistadoptions_AWS::ECS::Fargate",
+   "www.amazon.com_remote",
+   "Servi-searc.us-west-2.elb.amazonaws.com_remote",
+   "AWS::StepFunctions::StateMachine",
+   "adoptions@services-database.us-west-2.rds.amazonaws.com_Database::SQL",
+   "servi-lista.us-west-2.elb.amazonaws.com_remote",
+   "servi-searc.us-west-2.elb.amazonaws.com_remote"
+  ],
+  "models": {
+   "marginal": {
+    "A": {
+     "logpdf": -1.7092878281346797,
+     "rmse": 1.2572585935831981,
+     "cond_sd": 1.0000005004998747
+    },
+    "B": {
+     "logpdf": -1.4796341784043985,
+     "rmse": 1.0368311580846674
+    }
+   },
+   "saturated": {
+    "A": {
+     "logpdf": -5.42555683079895,
+     "rmse": 0.9185207739911684,
+     "cond_sd": 0.2692527461435799
+    },
+    "B": {
+     "logpdf": -0.7905536248088612,
+     "rmse": 0.6608197542075037
+    }
+   },
+   "truth/admg": {
+    "A": {
+     "logpdf": -5.055250946849547,
+     "rmse": 0.9237625098592479,
+     "cond_sd": 0.28093763756149587
+    },
+    "B": {
+     "logpdf": -0.74086344161263,
+     "rmse": 0.6531218358373134
+    }
+   },
+   "truth/dag": {
+    "A": {
+     "logpdf": -5.055250946849547,
+     "rmse": 0.9237625098592479,
+     "cond_sd": 0.28093763756149587
+    },
+    "B": {
+     "logpdf": -0.7405711260409582,
+     "rmse": 0.6529280823344973
+    }
+   },
+   "abic/admg": {
+    "A": {
+     "logpdf": -4.4660523714803695,
+     "rmse": 0.9253091025296875,
+     "cond_sd": 0.3001962418186078
+    },
+    "B": {
+     "logpdf": -0.7337070895062079,
+     "rmse": 0.643979359487525
+    }
+   },
+   "abic/dag": {
+    "A": {
+     "logpdf": -3.217617926053158,
+     "rmse": 0.909270030678157,
+     "cond_sd": 0.3515997542340583
+    },
+    "B": {
+     "logpdf": -1.1207884965374149,
+     "rmse": 0.7860495723319098
+    }
+   },
+   "spot_cal/admg": {
+    "A": {
+     "logpdf": -4.488203222687962,
+     "rmse": 0.9303101921300602,
+     "cond_sd": 0.30122554935880597
+    },
+    "B": {
+     "logpdf": -0.7320187337018875,
+     "rmse": 0.6420410388456297
+    }
+   },
+   "spot_cal/dag": {
+    "A": {
+     "logpdf": -1.7092881184837236,
+     "rmse": 1.2572585935831981,
+     "cond_sd": 1.0000000005
+    },
+    "B": {
+     "logpdf": -0.9946368190945288,
+     "rmse": 0.7543956704711567
+    }
+   }
+  }
+ },
+ "high_traffic/seed0": {
+  "n_train": 412,
+  "n_test": 177,
+  "sink": "PetSite",
+  "sink_ancestors": [
+   "AWSSimpleSystemsManagement_AWS::AWSSimpleSystemsManagement",
+   "DynamoDB_AWS::DynamoDB",
+   "Evidently_AWS::Evidently",
+   "PGSQL Query_remote",
+   "PetAdoptionStatusUpdater/prod_AWS::ApiGateway::Stage",
+   "PetSearch_AWS::ECS::Fargate",
+   "SSM_AWS::SSM",
+   "SimpleNotificationService_AWS::SimpleNotificationService",
+   "SimpleSystemsManagement_AWS::SimpleSystemsManagement",
+   "amazon.com_remote",
+   "lambda_step_priceGreaterThan55",
+   "lambda_step_priceGreaterThan55_AWS::Lambda",
+   "lambda_step_priceGreaterThan55_AWS::Lambda::Function",
+   "lambda_step_priceLessThan55",
+   "lambda_step_priceLessThan55_AWS::Lambda",
+   "lambda_step_priceLessThan55_AWS::Lambda::Function",
+   "lambda_step_readDDB",
+   "lambda_step_readDDB_AWS::Lambda",
+   "lambda_step_readDDB_AWS::Lambda::Function",
+   "lambdastatusupdater_AWS::Lambda",
+   "lambdastatusupdater_AWS::Lambda::Function",
+   "payforadoption_AWS::ECS::Container",
+   "petInfo_AWS::DynamoDB::Table",
+   "petlistadoptions_AWS::ECS::Fargate",
+   "www.amazon.com_remote",
+   "Servi-searc.us-west-2.elb.amazonaws.com_remote",
+   "AWS::StepFunctions::StateMachine",
+   "adoptions@services-database.us-west-2.rds.amazonaws.com_Database::SQL",
+   "https://sqs.us-west-2.amazonaws.com/Services-sqspetadoption_AWS::SQS::Queue",
+   "servi-lista.us-west-2.elb.amazonaws.com_remote",
+   "servi-petsi.us-west-2.elb.amazonaws.com_remote",
+   "servi-searc.us-west-2.elb.amazonaws.com_remote"
+  ],
+  "models": {
+   "marginal": {
+    "A": {
+     "logpdf": -1.416431208963052,
+     "rmse": 0.9974895219983988,
+     "cond_sd": 1.0000005004998747
+    },
+    "B": {
+     "logpdf": -1.4585150944324736,
+     "rmse": 1.0069507035011653
+    }
+   },
+   "saturated": {
+    "A": {
+     "logpdf": -0.3680104458543073,
+     "rmse": 0.2930593724842946,
+     "cond_sd": 0.20270708408729968
+    },
+    "B": {
+     "logpdf": -0.46494522091932833,
+     "rmse": 0.5369234384499447
+    }
+   },
+   "truth/admg": {
+    "A": {
+     "logpdf": -0.25012222495055325,
+     "rmse": 0.286136349742905,
+     "cond_sd": 0.22015762223567487
+    },
+    "B": {
+     "logpdf": -0.4863875002301801,
+     "rmse": 0.5636537323000219
+    }
+   },
+   "truth/dag": {
+    "A": {
+     "logpdf": -0.25012222495055325,
+     "rmse": 0.286136349742905,
+     "cond_sd": 0.22015762223567487
+    },
+    "B": {
+     "logpdf": -0.4863875002301801,
+     "rmse": 0.5636537323000219
+    }
+   },
+   "abic/admg": {
+    "A": {
+     "logpdf": -0.21962609800027313,
+     "rmse": 0.2902339616236029,
+     "cond_sd": 0.24181931560854736
+    },
+    "B": {
+     "logpdf": -0.474879649607508,
+     "rmse": 0.528333790937592
+    }
+   },
+   "abic/dag": {
+    "A": {
+     "logpdf": -0.5247089516046944,
+     "rmse": 0.35836053247392985,
+     "cond_sd": 0.541690848802085
+    },
+    "B": {
+     "logpdf": -1.2055240221098613,
+     "rmse": 0.8516873815214928
+    }
+   },
+   "spot_cal/admg": {
+    "A": {
+     "logpdf": -0.25722110863092806,
+     "rmse": 0.2916447281080336,
+     "cond_sd": 0.22850946453917773
+    },
+    "B": {
+     "logpdf": -0.48288246157958953,
+     "rmse": 0.5316484850744988
+    }
+   },
+   "spot_cal/dag": {
+    "A": {
+     "logpdf": -0.5247089516046944,
+     "rmse": 0.35836053247392985,
+     "cond_sd": 0.541690848802085
+    },
+    "B": {
+     "logpdf": -1.0986572454306116,
+     "rmse": 0.7890963328756873
+    }
+   }
+  }
+ }
+}

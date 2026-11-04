@@ -1,0 +1,63 @@
+{
+ "model": "skeleton_posterior_sk1.9.1.pkl",
+ "seed": 777,
+ "n_graphs": 40,
+ "table": [
+  {
+   "floor": 0.001,
+   "true_edges_pinned": 0.0012453300124533001,
+   "non_edges_pinned": 0.5135471815633759
+  },
+  {
+   "floor": 0.002,
+   "true_edges_pinned": 0.0024906600249066002,
+   "non_edges_pinned": 0.616786047960137
+  },
+  {
+   "floor": 0.003,
+   "true_edges_pinned": 0.0043586550435865505,
+   "non_edges_pinned": 0.6794871794871795
+  },
+  {
+   "floor": 0.004,
+   "true_edges_pinned": 0.00684931506849315,
+   "non_edges_pinned": 0.7194539603446486
+  },
+  {
+   "floor": 0.005,
+   "true_edges_pinned": 0.008717310087173101,
+   "non_edges_pinned": 0.7485207100591716
+  },
+  {
+   "floor": 0.006,
+   "true_edges_pinned": 0.009962640099626401,
+   "non_edges_pinned": 0.7695421986919962
+  },
+  {
+   "floor": 0.008,
+   "true_edges_pinned": 0.015566625155666251,
+   "non_edges_pinned": 0.7990760925983598
+  },
+  {
+   "floor": 0.01,
+   "true_edges_pinned": 0.0186799501867995,
+   "non_edges_pinned": 0.8180732897332088
+  },
+  {
+   "floor": 0.02,
+   "true_edges_pinned": 0.025529265255292654,
+   "non_edges_pinned": 0.8754282155091871
+  },
+  {
+   "floor": 0.03,
+   "true_edges_pinned": 0.034869240348692404,
+   "non_edges_pinned": 0.9048582995951417
+  },
+  {
+   "floor": 0.05,
+   "true_edges_pinned": 0.05417185554171856,
+   "non_edges_pinned": 0.9465379424893595
+  }
+ ],
+ "chosen": 0.006
+}

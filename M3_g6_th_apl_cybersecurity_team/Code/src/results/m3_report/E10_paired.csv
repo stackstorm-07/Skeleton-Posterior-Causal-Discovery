@@ -1,0 +1,21 @@
+scenario,metric,compare,n_pairs,mean_diff,sd_diff,wins,losses,ties,p_wilcoxon,p_ttest
+high_traffic,skel F1,spot_cal_dir - abic_dir,3,0.06463463463463474,0.03360661362819274,3,0,0,0.25,0.07951517789851853
+high_traffic,arrow F1,spot_cal_dir - abic_dir,3,0.017413632119514463,0.07034192014893971,2,1,0,0.75,0.7098490226297194
+high_traffic,tail F1,spot_cal_dir - abic_dir,3,0.0,0.0,0,0,3,1.0,1.0
+high_traffic,SHD(PAG),spot_cal_dir - abic_dir,3,-4.666666666666667,2.309401076758503,3,0,0,0.25,0.07282735005446932
+high_traffic,opt time s,spot_cal_dir - abic_dir,3,-94.79974583299797,73.01964876179002,3,0,0,0.25,0.15349174290806045
+low_traffic,skel F1,spot_cal_dir - abic_dir,3,0.0027741466957153147,0.0061328621310007365,1,1,1,1.0,0.5153954100821742
+low_traffic,arrow F1,spot_cal_dir - abic_dir,3,-0.04938271604938271,0.08553337321327789,0,1,2,1.0,0.4226497308103742
+low_traffic,tail F1,spot_cal_dir - abic_dir,3,0.0,0.0,0,0,3,1.0,1.0
+low_traffic,SHD(PAG),spot_cal_dir - abic_dir,3,-2.0,1.0,3,0,0,0.25,0.07417990022744854
+low_traffic,opt time s,spot_cal_dir - abic_dir,3,-18.64017515033144,8.461009441580632,3,0,0,0.25,0.06232690001745429
+temporal_traffic1,skel F1,spot_cal_dir - abic_dir,3,-0.03853173188419684,0.053104683962692585,0,3,0,0.25,0.3357354191325719
+temporal_traffic1,arrow F1,spot_cal_dir - abic_dir,3,0.0020639834881320956,0.0035749242674280248,1,0,2,1.0,0.4226497308103742
+temporal_traffic1,tail F1,spot_cal_dir - abic_dir,3,-0.03174603174603175,0.054985739922821505,0,1,2,1.0,0.42264973081037416
+temporal_traffic1,SHD(PAG),spot_cal_dir - abic_dir,3,1.0,4.0,1,2,0,0.75,0.7072299781154401
+temporal_traffic1,opt time s,spot_cal_dir - abic_dir,3,-30.29394362133462,9.633101573125758,3,0,0,0.25,0.03209171698865499
+temporal_traffic2,skel F1,spot_cal_dir - abic_dir,3,-0.02218600113336955,0.058972826183731064,1,2,0,0.75,0.5815263996160793
+temporal_traffic2,arrow F1,spot_cal_dir - abic_dir,3,-0.04878048780487806,0.04697349027864439,0,2,1,0.5,0.213886571545444
+temporal_traffic2,tail F1,spot_cal_dir - abic_dir,3,-0.05555555555555555,0.04956347617776507,0,2,1,0.5,0.19170962313452397
+temporal_traffic2,SHD(PAG),spot_cal_dir - abic_dir,3,-0.3333333333333333,2.3094010767585034,1,2,0,1.0,0.8259223440443022
+temporal_traffic2,opt time s,spot_cal_dir - abic_dir,3,-19.732372114331763,12.576623613123813,3,0,0,0.25,0.11292928619864087

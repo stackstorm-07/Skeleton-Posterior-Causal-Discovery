@@ -1,0 +1,29 @@
+[low_traffic/gauss_rank] n=589 d=29 latent=13 truth skeleton edges=31 | posterior AUROC 0.830 AUPRC 0.515 (0.18s) | cal floor pins 32% of true edges
+  seed 0 abic             skel 0.508 head 0.267 tail 0.000 | est 8+24bi | opt   85.3s fev  93172 conv True
+  seed 0 spot_cal         skel 0.533 head 0.231 tail 0.000 | est 12+17bi | opt   14.0s fev  15833 conv True
+  seed 0 spot             skel 0.517 head 0.280 tail 0.000 | est 9+18bi | opt   21.3s fev  23363 conv True
+[low_traffic/gauss_rank] n=589 d=29 latent=13 truth skeleton edges=31 | posterior AUROC 0.830 AUPRC 0.515 (0.29s) | cal floor pins 32% of true edges
+  seed 1 abic             skel 0.462 head 0.286 tail 0.000 | est 7+27bi | opt  122.9s fev 133755 conv True
+  seed 1 spot_cal         skel 0.548 head 0.264 tail 0.000 | est 8+23bi | opt   32.6s fev  36068 conv True
+  seed 1 spot             skel 0.533 head 0.308 tail 0.000 | est 9+20bi | opt   51.5s fev  58112 conv True
+  seed 2 abic             skel 0.484 head 0.310 tail 0.000 | est 7+24bi | opt   39.4s fev  44180 conv True
+  seed 2 spot_cal         skel 0.483 head 0.235 tail 0.000 | est 8+19bi | opt    9.5s fev  10459 conv True
+  seed 2 spot             skel 0.492 head 0.308 tail 0.000 | est 10+24bi | opt   22.0s fev  24497 conv True
+[high_traffic/gauss_rank] n=589 d=35 latent=9 truth skeleton edges=38 | posterior AUROC 0.931 AUPRC 0.590 (0.41s) | cal floor pins 16% of true edges
+  seed 0 abic             skel 0.494 head 0.315 tail 0.250 | est 10+41bi | opt  197.8s fev 145406 conv True
+  seed 0 spot_cal         skel 0.552 head 0.261 tail 0.143 | est 9+40bi | opt  118.0s fev  92615 conv True
+  seed 0 spot             skel 0.562 head 0.277 tail 0.125 | est 16+35bi | opt   57.1s fev  42694 conv True
+  seed 1 abic             skel 0.506 head 0.296 tail 0.133 | est 13+36bi | opt  187.8s fev 135341 conv True
+  seed 1 spot_cal         skel 0.519 head 0.385 tail 0.400 | est 17+26bi | opt   40.1s fev  30948 conv True
+  seed 1 spot             skel 0.518 head 0.244 tail 0.118 | est 12+35bi | opt   85.2s fev  62798 conv True
+  seed 2 abic             skel 0.538 head 0.286 tail 0.118 | est 14+41bi | opt  191.0s fev 143043 conv True
+  seed 2 spot_cal         skel 0.541 head 0.256 tail 0.000 | est 17+30bi | opt   77.0s fev  61989 conv True
+  seed 2 spot             skel 0.527 head 0.255 tail 0.125 | est 12+41bi | opt  135.2s fev 103268 conv True
+[temporal_traffic1/gauss_rank] n=1652 d=31 latent=10 truth skeleton edges=33 | posterior AUROC 0.876 AUPRC 0.570 (0.27s) | cal floor pins 15% of true edges
+  seed 0 abic             skel 0.541 head 0.263 tail 0.000 | est 7+34bi | opt   52.5s fev  50624 conv True
+  seed 0 spot_cal         skel 0.571 head 0.382 tail 0.133 | est 8+29bi | opt   48.6s fev  47505 conv True
+  seed 0 spot             skel 0.537 head 0.324 tail 0.133 | est 7+27bi | opt   56.1s fev  50354 conv True
+[temporal_traffic1/gauss_rank] n=1652 d=31 latent=10 truth skeleton edges=33 | posterior AUROC 0.876 AUPRC 0.570 (0.30s) | cal floor pins 15% of true edges
+  seed 1 abic             skel 0.548 head 0.371 tail 0.000 | est 6+34bi | opt   40.8s fev  37803 conv True
+  seed 1 spot_cal         skel 0.609 head 0.431 tail 0.133 | est 9+27bi | opt   29.6s fev  27234 conv True
+  seed 1 spot             skel 0.571 head 0.344 tail 0.000 | est 8+29bi | opt   35.2s fev  33185 conv True

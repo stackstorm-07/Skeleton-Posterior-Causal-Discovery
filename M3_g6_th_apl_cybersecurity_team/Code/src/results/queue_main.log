@@ -1,0 +1,515 @@
+nohup: ignoring input
+exp     jobs   done   todo  est core-h todo   plan core-h
+E3        60      0     60             1.34           0.8
+E4        48      0     48             0.77           1.0
+E5       120      0    120             3.20           2.7
+E1        40      0     40             1.72           1.5
+E9        44      0     44             0.14           0.5
+E10       24      0     24             0.25           0.5
+E2        80      0     80             3.84           2.0
+E12       12      0     12             1.33           0.7
+E7         5      0      5             0.05           0.3
+E13       24      0     24             0.61           1.5
+total estimated core-hours still to do: 13.3  ->  about 1.4 h wall clock with 11 workers (+20 % overhead)
+running 457 jobs with 11 workers (cpu_count 22); timing_quiet = False
+[1/457] E3|low_traffic|gauss_rank|seed3|abic|budgetNone  skel 0.500   175.5s | elapsed   2.9 min, ETA  1.62 h
+[2/457] E3|low_traffic|gauss_rank|seed0|abic|budgetNone  skel 0.508   233.0s | elapsed   3.9 min, ETA  1.73 h
+[3/457] E3|low_traffic|gauss_rank|seed2|abic|budgetNone  skel 0.484   250.5s | elapsed   4.2 min, ETA  1.78 h
+[4/457] E3|temporal_traffic1|gauss_rank|seed1|abic|budgetNone  skel 0.548   452.7s | elapsed   7.5 min, ETA  2.00 h
+[5/457] E3|temporal_traffic1|gauss_rank|seed3|abic|budgetNone  skel 0.583   455.3s | elapsed   7.6 min, ETA  2.13 h
+[6/457] E3|temporal_traffic1|gauss_rank|seed2|abic|budgetNone  skel 0.522   468.4s | elapsed   7.8 min, ETA  2.22 h
+[7/457] E3|temporal_traffic2|gauss_rank|seed1|abic|budgetNone  skel 0.533   546.7s | elapsed   9.1 min, ETA  2.32 h
+[8/457] E3|temporal_traffic1|gauss_rank|seed4|abic|budgetNone  skel 0.543   550.8s | elapsed   9.2 min, ETA  2.40 h
+[9/457] E3|low_traffic|gauss_rank|seed1|abic|budgetNone  skel 0.462   550.9s | elapsed   9.2 min, ETA  2.46 h
+[10/457] E3|temporal_traffic1|gauss_rank|seed0|abic|budgetNone  skel 0.493   558.0s | elapsed   9.3 min, ETA  2.50 h
+[11/457] E3|temporal_traffic2|gauss_rank|seed0|abic|budgetNone  skel 0.494   568.7s | elapsed   9.5 min, ETA  2.54 h
+[12/457] E3|temporal_traffic2|gauss_rank|seed3|abic|budgetNone  skel 0.535   614.6s | elapsed  10.2 min, ETA  2.58 h
+[13/457] E3|high_traffic|gauss_rank|seed0|spot_cal|budgetNone  skel 0.500   617.8s | elapsed  10.3 min, ETA  2.61 h
+[14/457] E3|low_traffic|gauss_rank|seed4|abic|budgetNone  skel 0.500   621.5s | elapsed  10.4 min, ETA  2.64 h
+[15/457] E3|high_traffic|gauss_rank|seed0|abic|budgetNone  skel 0.506   664.5s | elapsed  11.1 min, ETA  2.68 h
+[16/457] E3|high_traffic|gauss_rank|seed1|spot_cal|budgetNone  skel 0.494   515.0s | elapsed  11.5 min, ETA  2.67 h
+[17/457] E3|high_traffic|gauss_rank|seed2|spot_cal|budgetNone  skel 0.506   444.8s | elapsed  11.6 min, ETA  2.65 h
+[18/457] E3|high_traffic|gauss_rank|seed0|spot|budgetNone  skel 0.549   713.5s | elapsed  11.9 min, ETA  2.68 h
+[19/457] E3|high_traffic|gauss_rank|seed4|abic|budgetNone  skel 0.495   730.7s | elapsed  12.2 min, ETA  2.71 h
+[20/457] E3|high_traffic|gauss_rank|seed3|spot_cal|budgetNone  skel 0.483   282.3s | elapsed  12.3 min, ETA  2.66 h
+[21/457] E3|high_traffic|gauss_rank|seed2|abic|budgetNone  skel 0.532   741.5s | elapsed  12.4 min, ETA  2.68 h
+[22/457] E3|temporal_traffic2|gauss_rank|seed4|abic|budgetNone  skel 0.529   745.7s | elapsed  12.4 min, ETA  2.70 h
+[23/457] E3|low_traffic|gauss_rank|seed1|spot_cal|budgetNone  skel 0.533   204.1s | elapsed  12.9 min, ETA  2.65 h
+[24/457] E3|high_traffic|gauss_rank|seed4|spot_cal|budgetNone  skel 0.523   231.0s | elapsed  13.0 min, ETA  2.59 h
+[25/457] E3|high_traffic|gauss_rank|seed3|abic|budgetNone  skel 0.440   792.6s | elapsed  13.2 min, ETA  2.62 h
+[26/457] E3|low_traffic|gauss_rank|seed0|spot|budgetNone  skel 0.500   237.4s | elapsed  13.3 min, ETA  2.57 h
+[27/457] E3|low_traffic|gauss_rank|seed0|spot_cal|budgetNone  skel 0.516   257.8s | elapsed  13.5 min, ETA  2.53 h
+[28/457] E3|high_traffic|gauss_rank|seed3|spot|budgetNone  skel 0.533   340.9s | elapsed  13.5 min, ETA  2.50 h
+[29/457] E3|low_traffic|gauss_rank|seed2|spot_cal|budgetNone  skel 0.492   193.2s | elapsed  13.5 min, ETA  2.46 h
+[30/457] E3|low_traffic|gauss_rank|seed3|spot_cal|budgetNone  skel 0.542   148.6s | elapsed  13.6 min, ETA  2.41 h
+[31/457] E3|low_traffic|gauss_rank|seed1|spot|budgetNone  skel 0.484   204.2s | elapsed  13.6 min, ETA  2.37 h
+[32/457] E3|low_traffic|gauss_rank|seed4|spot_cal|budgetNone  skel 0.576   134.0s | elapsed  13.8 min, ETA  2.33 h
+[33/457] E3|low_traffic|gauss_rank|seed2|spot|budgetNone  skel 0.484   215.4s | elapsed  13.9 min, ETA  2.30 h
+[34/457] E3|temporal_traffic2|gauss_rank|seed2|abic|budgetNone  skel 0.540   844.2s | elapsed  14.1 min, ETA  2.32 h
+[35/457] E3|low_traffic|gauss_rank|seed4|spot|budgetNone  skel 0.531   143.1s | elapsed  14.3 min, ETA  2.28 h
+[36/457] E3|temporal_traffic1|gauss_rank|seed0|spot_cal|budgetNone  skel 0.535   132.6s | elapsed  14.4 min, ETA  2.25 h
+[37/457] E3|temporal_traffic1|gauss_rank|seed2|spot_cal|budgetNone  skel 0.531   116.7s | elapsed  14.8 min, ETA  2.21 h
+[38/457] E3|high_traffic|gauss_rank|seed1|abic|budgetNone  skel 0.517   890.4s | elapsed  14.8 min, ETA  2.24 h
+[39/457] E3|temporal_traffic1|gauss_rank|seed1|spot_cal|budgetNone  skel 0.571   154.9s | elapsed  14.9 min, ETA  2.20 h
+[40/457] E3|low_traffic|gauss_rank|seed3|spot|budgetNone  skel 0.500   207.0s | elapsed  15.0 min, ETA  2.18 h
+[41/457] E3|temporal_traffic1|gauss_rank|seed1|spot|budgetNone  skel 0.545   157.0s | elapsed  15.0 min, ETA  2.15 h
+[42/457] E3|high_traffic|gauss_rank|seed1|spot|budgetNone  skel 0.500   670.6s | elapsed  15.1 min, ETA  2.15 h
+[43/457] E3|high_traffic|gauss_rank|seed2|spot|budgetNone  skel 0.500   453.0s | elapsed  15.1 min, ETA  2.15 h
+[44/457] E3|temporal_traffic1|gauss_rank|seed0|spot|budgetNone  skel 0.535   170.8s | elapsed  15.1 min, ETA  2.12 h
+[45/457] E3|temporal_traffic1|gauss_rank|seed3|spot_cal|budgetNone  skel 0.580   123.1s | elapsed  15.3 min, ETA  2.09 h
+[46/457] E3|temporal_traffic2|gauss_rank|seed0|spot_cal|budgetNone  skel 0.486   136.6s | elapsed  15.8 min, ETA  2.06 h
+[47/457] E3|high_traffic|gauss_rank|seed4|spot|budgetNone  skel 0.476   402.0s | elapsed  15.9 min, ETA  2.05 h
+[48/457] E3|temporal_traffic2|gauss_rank|seed1|spot_cal|budgetNone  skel 0.609   136.1s | elapsed  15.9 min, ETA  2.03 h
+[49/457] E3|temporal_traffic2|gauss_rank|seed2|spot_cal|budgetNone  skel 0.609   118.7s | elapsed  15.9 min, ETA  2.00 h
+[50/457] E3|temporal_traffic2|gauss_rank|seed2|spot|budgetNone  skel 0.592   113.6s | elapsed  16.0 min, ETA  1.98 h
+[51/457] E3|temporal_traffic2|gauss_rank|seed1|spot|budgetNone  skel 0.575   139.7s | elapsed  16.2 min, ETA  1.95 h
+[52/457] E3|temporal_traffic1|gauss_rank|seed4|spot_cal|budgetNone  skel 0.588   160.6s | elapsed  16.2 min, ETA  1.93 h
+[53/457] E3|temporal_traffic1|gauss_rank|seed4|spot|budgetNone  skel 0.647   160.6s | elapsed  16.2 min, ETA  1.91 h
+[54/457] E3|temporal_traffic2|gauss_rank|seed4|spot_cal|budgetNone  skel 0.597    96.6s | elapsed  16.4 min, ETA  1.89 h
+[55/457] E3|temporal_traffic1|gauss_rank|seed2|spot|budgetNone  skel 0.548   217.1s | elapsed  16.6 min, ETA  1.87 h
+[56/457] E3|temporal_traffic2|gauss_rank|seed0|spot|budgetNone  skel 0.543   194.4s | elapsed  16.8 min, ETA  1.86 h
+[57/457] E4|high_traffic|gauss_rank|seed0|spot_random|budgetNone  skel 0.122   106.6s | elapsed  16.8 min, ETA  1.84 h
+[58/457] E4|high_traffic|gauss_rank|seed1|spot_random|budgetNone  skel 0.182   115.0s | elapsed  17.2 min, ETA  1.82 h
+[59/457] E3|temporal_traffic2|gauss_rank|seed3|spot_cal|budgetNone  skel 0.571   183.9s | elapsed  17.3 min, ETA  1.80 h
+[60/457] E3|temporal_traffic2|gauss_rank|seed4|spot|budgetNone  skel 0.580   162.2s | elapsed  17.5 min, ETA  1.78 h
+[61/457] E4|high_traffic|gauss_rank|seed0|spot_oracle|budgetNone  skel 0.848   162.6s | elapsed  17.8 min, ETA  1.77 h
+[62/457] E3|temporal_traffic2|gauss_rank|seed3|spot|budgetNone  skel 0.571   205.9s | elapsed  17.8 min, ETA  1.75 h
+[63/457] E4|high_traffic|gauss_rank|seed1|spot_oracle|budgetNone  skel 0.813   126.0s | elapsed  17.9 min, ETA  1.74 h
+[64/457] E4|high_traffic|gauss_rank|seed1|spot_floor_only|budgetNone  skel 0.476   181.9s | elapsed  18.2 min, ETA  1.72 h
+[65/457] E4|high_traffic|gauss_rank|seed2|spot_random|budgetNone  skel 0.113   136.1s | elapsed  18.2 min, ETA  1.71 h
+[66/457] E4|high_traffic|gauss_rank|seed1|spot_nofloor|budgetNone  skel 0.541   194.7s | elapsed  18.3 min, ETA  1.69 h
+[67/457] E4|low_traffic|gauss_rank|seed0|spot_oracle|budgetNone  skel 0.760   122.2s | elapsed  18.5 min, ETA  1.68 h
+[68/457] E4|low_traffic|gauss_rank|seed0|spot_random|budgetNone  skel 0.205   139.8s | elapsed  18.5 min, ETA  1.66 h
+[69/457] E4|low_traffic|gauss_rank|seed0|spot_floor_only|budgetNone  skel 0.467   146.3s | elapsed  18.6 min, ETA  1.65 h
+[70/457] E4|low_traffic|gauss_rank|seed1|spot_random|budgetNone  skel 0.089   119.8s | elapsed  18.8 min, ETA  1.63 h
+[71/457] E4|low_traffic|gauss_rank|seed1|spot_oracle|budgetNone  skel 0.784    98.8s | elapsed  18.8 min, ETA  1.62 h
+[72/457] E4|high_traffic|gauss_rank|seed2|spot_oracle|budgetNone  skel 0.831   174.6s | elapsed  18.9 min, ETA  1.61 h
+[73/457] E4|high_traffic|gauss_rank|seed0|spot_nofloor|budgetNone  skel 0.571   254.6s | elapsed  19.2 min, ETA  1.60 h
+[74/457] E4|low_traffic|gauss_rank|seed2|spot_floor_only|budgetNone  skel 0.508    98.9s | elapsed  19.2 min, ETA  1.58 h
+[75/457] E4|low_traffic|gauss_rank|seed1|spot_floor_only|budgetNone  skel 0.452   146.3s | elapsed  19.2 min, ETA  1.57 h
+[76/457] E4|high_traffic|gauss_rank|seed2|spot_nofloor|budgetNone  skel 0.538   201.1s | elapsed  19.2 min, ETA  1.56 h
+[77/457] E4|low_traffic|gauss_rank|seed2|spot_oracle|budgetNone  skel 0.735    93.0s | elapsed  19.4 min, ETA  1.55 h
+[78/457] E3|temporal_traffic1|gauss_rank|seed3|spot|budgetNone  skel 0.588   369.9s | elapsed  19.4 min, ETA  1.54 h
+[79/457] E4|low_traffic|gauss_rank|seed0|spot_nofloor|budgetNone  skel 0.500   200.5s | elapsed  19.5 min, ETA  1.53 h
+[80/457] E4|temporal_traffic1|gauss_rank|seed0|spot_oracle|budgetNone  skel 0.800    81.3s | elapsed  19.7 min, ETA  1.52 h
+[81/457] E4|temporal_traffic1|gauss_rank|seed0|spot_random|budgetNone  skel 0.192    94.1s | elapsed  19.8 min, ETA  1.50 h
+[82/457] E4|low_traffic|gauss_rank|seed2|spot_random|budgetNone  skel 0.150   129.0s | elapsed  19.9 min, ETA  89.6 min
+[83/457] E4|low_traffic|gauss_rank|seed2|spot_nofloor|budgetNone  skel 0.500   157.0s | elapsed  20.0 min, ETA  88.9 min
+[84/457] E4|temporal_traffic1|gauss_rank|seed1|spot_oracle|budgetNone  skel 0.842    76.2s | elapsed  20.1 min, ETA  88.2 min
+[85/457] E4|high_traffic|gauss_rank|seed0|spot_floor_only|budgetNone  skel 0.568   308.7s | elapsed  20.1 min, ETA  87.8 min
+[86/457] E4|temporal_traffic1|gauss_rank|seed1|spot_floor_only|budgetNone  skel 0.600   114.7s | elapsed  20.4 min, ETA  87.1 min
+[87/457] E4|temporal_traffic1|gauss_rank|seed2|spot_oracle|budgetNone  skel 0.842    83.2s | elapsed  20.6 min, ETA  86.4 min
+[88/457] E4|temporal_traffic1|gauss_rank|seed1|spot_random|budgetNone  skel 0.314   126.7s | elapsed  20.7 min, ETA  85.8 min
+[89/457] E4|temporal_traffic1|gauss_rank|seed1|spot_nofloor|budgetNone  skel 0.560   135.4s | elapsed  20.7 min, ETA  85.2 min
+[90/457] E4|temporal_traffic1|gauss_rank|seed0|spot_floor_only|budgetNone  skel 0.406   162.7s | elapsed  20.9 min, ETA  84.6 min
+[91/457] E4|temporal_traffic1|gauss_rank|seed2|spot_floor_only|budgetNone  skel 0.523   124.4s | elapsed  20.9 min, ETA  84.0 min
+[92/457] E4|temporal_traffic1|gauss_rank|seed0|spot_nofloor|budgetNone  skel 0.438   191.0s | elapsed  21.1 min, ETA  83.5 min
+[93/457] E4|temporal_traffic2|gauss_rank|seed0|spot_oracle|budgetNone  skel 0.821   105.6s | elapsed  21.2 min, ETA  82.9 min
+[94/457] E4|temporal_traffic2|gauss_rank|seed0|spot_random|budgetNone  skel 0.196   123.8s | elapsed  21.4 min, ETA  82.3 min
+[95/457] E4|temporal_traffic2|gauss_rank|seed1|spot_oracle|budgetNone  skel 0.842    92.0s | elapsed  21.5 min, ETA  81.7 min
+[96/457] E4|temporal_traffic2|gauss_rank|seed1|spot_random|budgetNone  skel 0.386   107.7s | elapsed  21.6 min, ETA  81.1 min
+[97/457] E4|temporal_traffic2|gauss_rank|seed1|spot_floor_only|budgetNone  skel 0.611   124.6s | elapsed  21.8 min, ETA  80.5 min
+[98/457] E4|temporal_traffic2|gauss_rank|seed2|spot_oracle|budgetNone  skel 0.842    99.4s | elapsed  22.1 min, ETA  80.0 min
+[99/457] E4|temporal_traffic2|gauss_rank|seed1|spot_nofloor|budgetNone  skel 0.538   165.6s | elapsed  22.3 min, ETA  79.5 min
+[100/457] E4|temporal_traffic2|gauss_rank|seed0|spot_nofloor|budgetNone  skel 0.500   185.3s | elapsed  22.3 min, ETA  79.0 min
+[101/457] E4|temporal_traffic2|gauss_rank|seed2|spot_floor_only|budgetNone  skel 0.588   134.1s | elapsed  22.3 min, ETA  78.5 min
+[102/457] E4|temporal_traffic1|gauss_rank|seed2|spot_random|budgetNone  skel 0.208   198.6s | elapsed  22.5 min, ETA  78.0 min
+[103/457] E4|temporal_traffic2|gauss_rank|seed0|spot_floor_only|budgetNone  skel 0.472   202.3s | elapsed  22.6 min, ETA  77.6 min
+[104/457] E4|temporal_traffic1|gauss_rank|seed2|spot_nofloor|budgetNone  skel 0.545   268.1s | elapsed  23.3 min, ETA  77.2 min
+[105/457] E4|temporal_traffic2|gauss_rank|seed2|spot_nofloor|budgetNone  skel 0.618   268.7s | elapsed  24.4 min, ETA  76.7 min
+[106/457] E4|low_traffic|gauss_rank|seed1|spot_nofloor|budgetNone  skel 0.469   484.1s | elapsed  24.6 min, ETA  76.5 min
+[107/457] E4|high_traffic|gauss_rank|seed2|spot_floor_only|budgetNone  skel 0.506   580.1s | elapsed  25.6 min, ETA  76.3 min
+[108/457] E4|temporal_traffic2|gauss_rank|seed2|spot_random|budgetNone  skel 0.189   356.8s | elapsed  26.1 min, ETA  76.0 min
+[109/457] E5|high_traffic|b1|abic  skel 0.489   351.9s | elapsed  26.6 min, ETA  2.03 h
+[110/457] E5|high_traffic|b7|abic  skel 0.440   334.0s | elapsed  27.0 min, ETA  2.00 h
+[111/457] E5|high_traffic|b2|abic  skel 0.505   421.4s | elapsed  27.8 min, ETA  2.07 h
+[112/457] E5|high_traffic|b3|abic  skel 0.421   436.2s | elapsed  28.2 min, ETA  2.11 h
+[113/457] E5|high_traffic|b10|abic  skel 0.472   418.5s | elapsed  28.7 min, ETA  2.11 h
+[114/457] E5|high_traffic|b4|abic  skel 0.489   489.4s | elapsed  29.1 min, ETA  2.15 h
+[115/457] E5|high_traffic|b5|abic  skel 0.422   536.9s | elapsed  30.0 min, ETA  2.19 h
+[116/457] E5|high_traffic|b11|abic  skel 0.478   616.1s | elapsed  32.3 min, ETA  2.25 h
+[117/457] E5|high_traffic|b0|abic  skel 0.556   712.4s | elapsed  32.5 min, ETA  2.32 h
+[118/457] E5|high_traffic|b12|abic  skel 0.457   621.6s | elapsed  32.6 min, ETA  2.35 h
+[119/457] E5|high_traffic|b9|abic  skel 0.523   698.2s | elapsed  33.2 min, ETA  2.39 h
+[120/457] E5|high_traffic|b8|abic  skel 0.435   728.8s | elapsed  33.6 min, ETA  2.42 h
+[121/457] E5|high_traffic|b14|abic  skel 0.424   680.1s | elapsed  33.7 min, ETA  2.44 h
+[122/457] E5|temporal_traffic1|b0|abic  skel 0.479   525.5s | elapsed  34.8 min, ETA  2.42 h
+[123/457] E5|low_traffic|b0|abic  skel 0.444   575.0s | elapsed  35.2 min, ETA  2.41 h
+[124/457] E5|temporal_traffic1|b1|abic  skel 0.506   495.8s | elapsed  35.3 min, ETA  2.39 h
+[125/457] E5|high_traffic|b15|abic  skel 0.467   767.1s | elapsed  35.3 min, ETA  2.41 h
+[126/457] E5|high_traffic|b16|abic  skel 0.511   793.2s | elapsed  35.8 min, ETA  2.43 h
+[127/457] E5|temporal_traffic1|b3|abic  skel 0.523   430.7s | elapsed  36.3 min, ETA  2.40 h
+[128/457] E5|high_traffic|b6|abic  skel 0.429   910.1s | elapsed  36.3 min, ETA  2.43 h
+[129/457] E5|low_traffic|b4|abic  skel 0.535   423.2s | elapsed  37.1 min, ETA  2.40 h
+[130/457] E5|low_traffic|b1|abic  skel 0.493   641.4s | elapsed  37.3 min, ETA  2.39 h
+[131/457] E5|temporal_traffic1|b2|abic  skel 0.500   573.1s | elapsed  37.7 min, ETA  2.38 h
+[132/457] E5|high_traffic|b17|abic  skel 0.412   869.2s | elapsed  37.8 min, ETA  2.39 h
+[133/457] E5|temporal_traffic1|b4|abic  skel 0.529   331.9s | elapsed  37.9 min, ETA  2.36 h
+[134/457] E5|low_traffic|b5|abic  skel 0.492   325.9s | elapsed  37.9 min, ETA  2.32 h
+[135/457] E5|low_traffic|b2|abic  skel 0.459   622.9s | elapsed  38.1 min, ETA  2.31 h
+[136/457] E5|low_traffic|b6|abic  skel 0.469   325.3s | elapsed  38.6 min, ETA  2.27 h
+[137/457] E5|high_traffic|b19|abic  skel 0.400   839.0s | elapsed  38.6 min, ETA  2.28 h
+[138/457] E5|high_traffic|b13|abic  skel 0.495   982.6s | elapsed  38.7 min, ETA  2.30 h
+[139/457] E5|low_traffic|b3|abic  skel 0.484   664.9s | elapsed  39.8 min, ETA  2.29 h
+[140/457] E5|high_traffic|b18|abic  skel 0.506   944.6s | elapsed  40.2 min, ETA  2.30 h
+[141/457] E5|temporal_traffic1|b9|abic  skel 0.514   281.4s | elapsed  40.5 min, ETA  2.26 h
+[142/457] E5|low_traffic|b8|abic  skel 0.464   323.9s | elapsed  40.6 min, ETA  2.23 h
+[143/457] E5|temporal_traffic1|b8|abic  skel 0.548   327.2s | elapsed  40.7 min, ETA  2.20 h
+[144/457] E5|low_traffic|b7|abic  skel 0.515   424.6s | elapsed  40.7 min, ETA  2.18 h
+[145/457] E5|temporal_traffic1|b10|abic  skel 0.493   314.8s | elapsed  41.6 min, ETA  2.15 h
+[146/457] E5|low_traffic|b12|abic  skel 0.500   241.6s | elapsed  41.7 min, ETA  2.12 h
+[147/457] E5|temporal_traffic1|b7|abic  skel 0.515   425.9s | elapsed  41.9 min, ETA  2.10 h
+[148/457] E5|low_traffic|b10|abic  skel 0.476   352.0s | elapsed  42.1 min, ETA  2.07 h
+[149/457] E5|temporal_traffic1|b12|abic  skel 0.538   270.9s | elapsed  42.3 min, ETA  2.05 h
+[150/457] E5|temporal_traffic1|b6|abic  skel 0.493   536.3s | elapsed  42.5 min, ETA  2.03 h
+[151/457] E5|low_traffic|b9|abic  skel 0.500   449.7s | elapsed  42.8 min, ETA  2.02 h
+[152/457] E5|low_traffic|b15|abic  skel 0.500   306.0s | elapsed  43.7 min, ETA  1.99 h
+[153/457] E5|low_traffic|b16|abic  skel 0.469   255.9s | elapsed  44.1 min, ETA  1.97 h
+[154/457] E5|temporal_traffic1|b16|abic  skel 0.592   252.8s | elapsed  44.4 min, ETA  1.94 h
+[155/457] E5|low_traffic|b11|abic  skel 0.444   454.0s | elapsed  44.6 min, ETA  1.93 h
+[156/457] E5|low_traffic|b17|abic  skel 0.523   266.1s | elapsed  44.9 min, ETA  1.91 h
+[157/457] E5|low_traffic|b14|abic  skel 0.448   409.4s | elapsed  45.0 min, ETA  1.89 h
+[158/457] E5|temporal_traffic1|b11|abic  skel 0.580   484.7s | elapsed  45.3 min, ETA  1.88 h
+[159/457] E5|temporal_traffic1|b15|abic  skel 0.543   422.4s | elapsed  45.7 min, ETA  1.86 h
+[160/457] E5|low_traffic|b18|abic  skel 0.516   316.9s | elapsed  46.0 min, ETA  1.84 h
+[161/457] E5|temporal_traffic1|b19|abic  skel 0.485   259.2s | elapsed  46.1 min, ETA  1.82 h
+[162/457] E5|low_traffic|b13|abic  skel 0.585   506.0s | elapsed  46.3 min, ETA  1.81 h
+[163/457] E5|temporal_traffic1|b14|abic  skel 0.537   489.8s | elapsed  46.8 min, ETA  1.79 h
+[164/457] E5|temporal_traffic1|b13|abic  skel 0.500   547.9s | elapsed  47.0 min, ETA  1.78 h
+[165/457] E5|high_traffic|b3|spot_cal  skel 0.516   304.1s | elapsed  47.6 min, ETA  1.77 h
+[166/457] E5|temporal_traffic1|b18|abic  skel 0.523   435.4s | elapsed  48.0 min, ETA  1.75 h
+[167/457] E5|high_traffic|b1|spot_cal  skel 0.473   353.5s | elapsed  48.0 min, ETA  1.73 h
+[168/457] E5|high_traffic|b5|spot_cal  skel 0.494   259.2s | elapsed  48.1 min, ETA  1.72 h
+[169/457] E5|high_traffic|b2|spot_cal  skel 0.538   359.1s | elapsed  48.3 min, ETA  1.70 h
+[170/457] E5|temporal_traffic1|b5|abic  skel 0.471   958.2s | elapsed  48.6 min, ETA  1.70 h
+[171/457] E5|high_traffic|b0|spot_cal  skel 0.585   432.2s | elapsed  49.1 min, ETA  1.69 h
+[172/457] E5|low_traffic|b19|abic  skel 0.438   466.0s | elapsed  49.4 min, ETA  1.67 h
+[173/457] E5|temporal_traffic1|b17|abic  skel 0.486   528.9s | elapsed  49.4 min, ETA  1.66 h
+[174/457] E5|high_traffic|b6|spot_cal  skel 0.438   350.5s | elapsed  49.9 min, ETA  1.65 h
+[175/457] E5|high_traffic|b11|spot_cal  skel 0.522   278.2s | elapsed  50.0 min, ETA  1.63 h
+[176/457] E5|high_traffic|b7|spot_cal  skel 0.535   338.8s | elapsed  50.0 min, ETA  1.61 h
+[177/457] E5|high_traffic|b4|spot_cal  skel 0.494   494.8s | elapsed  51.0 min, ETA  1.60 h
+[178/457] E5|high_traffic|b18|spot_cal  skel 0.469   218.3s | elapsed  51.2 min, ETA  1.58 h
+[179/457] E5|high_traffic|b13|spot_cal  skel 0.440   325.8s | elapsed  51.4 min, ETA  1.57 h
+[180/457] E5|high_traffic|b14|spot_cal  skel 0.533   325.2s | elapsed  51.5 min, ETA  1.55 h
+[181/457] E5|high_traffic|b10|spot_cal  skel 0.488   405.4s | elapsed  51.7 min, ETA  1.54 h
+[182/457] E5|low_traffic|b0|spot_cal  skel 0.484   223.4s | elapsed  51.8 min, ETA  1.53 h
+[183/457] E5|high_traffic|b16|spot_cal  skel 0.529   305.7s | elapsed  51.9 min, ETA  1.51 h
+[184/457] E5|high_traffic|b12|spot_cal  skel 0.484   380.2s | elapsed  52.1 min, ETA  89.9 min
+[185/457] E5|low_traffic|b2|spot_cal  skel 0.433   187.8s | elapsed  52.2 min, ETA  88.9 min
+[186/457] E5|low_traffic|b3|spot_cal  skel 0.525   195.0s | elapsed  52.6 min, ETA  88.0 min
+[187/457] E5|temporal_traffic1|b1|spot_cal  skel 0.580   258.1s | elapsed  52.9 min, ETA  87.1 min
+[188/457] E5|low_traffic|b4|spot_cal  skel 0.554   194.1s | elapsed  53.2 min, ETA  86.2 min
+[189/457] E5|low_traffic|b1|spot_cal  skel 0.492   308.8s | elapsed  53.4 min, ETA  85.4 min
+[190/457] E5|high_traffic|b15|spot_cal  skel 0.518   431.2s | elapsed  53.5 min, ETA  84.7 min
+[191/457] E5|temporal_traffic1|b4|spot_cal  skel 0.677   210.5s | elapsed  53.6 min, ETA  83.9 min
+[192/457] E5|temporal_traffic1|b0|spot_cal  skel 0.559   332.0s | elapsed  53.6 min, ETA  83.1 min
+[193/457] E5|low_traffic|b5|spot_cal  skel 0.438   160.1s | elapsed  53.7 min, ETA  82.2 min
+[194/457] E5|temporal_traffic1|b3|spot_cal  skel 0.478   231.4s | elapsed  53.8 min, ETA  81.4 min
+[195/457] E5|low_traffic|b6|spot_cal  skel 0.533   150.3s | elapsed  53.9 min, ETA  80.6 min
+[196/457] E5|low_traffic|b8|spot_cal  skel 0.464   139.9s | elapsed  54.2 min, ETA  79.7 min
+[197/457] E5|temporal_traffic1|b2|spot_cal  skel 0.484   291.4s | elapsed  54.2 min, ETA  79.0 min
+[198/457] E5|low_traffic|b7|spot_cal  skel 0.523   160.4s | elapsed  54.4 min, ETA  78.2 min
+[199/457] E5|temporal_traffic1|b6|spot_cal  skel 0.529   181.0s | elapsed  54.5 min, ETA  77.4 min
+[200/457] E5|low_traffic|b9|spot_cal  skel 0.540   145.8s | elapsed  54.7 min, ETA  76.6 min
+[201/457] E5|high_traffic|b19|spot_cal  skel 0.558   401.5s | elapsed  54.7 min, ETA  76.0 min
+[202/457] E5|temporal_traffic1|b7|spot_cal  skel 0.522   182.0s | elapsed  54.8 min, ETA  75.2 min
+[203/457] E5|high_traffic|b17|spot_cal  skel 0.440   475.6s | elapsed  54.9 min, ETA  74.6 min
+[204/457] E5|temporal_traffic1|b9|spot_cal  skel 0.493   148.6s | elapsed  55.1 min, ETA  73.9 min
+[205/457] E5|low_traffic|b11|spot_cal  skel 0.542   107.4s | elapsed  55.2 min, ETA  73.1 min
+[206/457] E5|low_traffic|b10|spot_cal  skel 0.548   142.8s | elapsed  55.3 min, ETA  72.4 min
+[207/457] E5|temporal_traffic1|b8|spot_cal  skel 0.567   194.6s | elapsed  55.3 min, ETA  71.7 min
+[208/457] E5|high_traffic|b9|spot_cal  skel 0.527   631.8s | elapsed  55.5 min, ETA  71.1 min
+[209/457] E5|temporal_traffic1|b10|spot_cal  skel 0.529   139.7s | elapsed  55.5 min, ETA  70.4 min
+[210/457] E5|low_traffic|b14|spot_cal  skel 0.476   109.4s | elapsed  55.8 min, ETA  69.7 min
+[211/457] E5|temporal_traffic1|b11|spot_cal  skel 0.571   136.4s | elapsed  55.8 min, ETA  69.0 min
+[212/457] E5|low_traffic|b16|spot_cal  skel 0.459    93.1s | elapsed  56.0 min, ETA  68.3 min
+[213/457] E5|temporal_traffic1|b14|spot_cal  skel 0.559   112.3s | elapsed  56.1 min, ETA  67.6 min
+[214/457] E5|low_traffic|b15|spot_cal  skel 0.492   123.1s | elapsed  56.3 min, ETA  67.0 min
+[215/457] E5|temporal_traffic1|b5|spot_cal  skel 0.492   302.4s | elapsed  56.3 min, ETA  66.3 min
+[216/457] E5|temporal_traffic1|b15|spot_cal  skel 0.486   128.8s | elapsed  56.5 min, ETA  65.7 min
+[217/457] E5|low_traffic|b17|spot_cal  skel 0.478   118.7s | elapsed  56.7 min, ETA  65.1 min
+[218/457] E5|low_traffic|b18|spot_cal  skel 0.567   106.8s | elapsed  56.7 min, ETA  64.4 min
+[219/457] E5|temporal_traffic1|b12|spot_cal  skel 0.479   193.6s | elapsed  56.8 min, ETA  63.8 min
+[220/457] E5|low_traffic|b13|spot_cal  skel 0.516   194.8s | elapsed  56.9 min, ETA  63.2 min
+[221/457] E5|temporal_traffic1|b16|spot_cal  skel 0.551   145.0s | elapsed  57.1 min, ETA  62.6 min
+[222/457] E5|low_traffic|b19|spot_cal  skel 0.441   128.6s | elapsed  57.4 min, ETA  62.0 min
+[223/457] E5|temporal_traffic1|b17|spot_cal  skel 0.545   169.6s | elapsed  57.6 min, ETA  61.4 min
+[224/457] E5|low_traffic|b12|spot_cal  skel 0.471   252.2s | elapsed  57.8 min, ETA  60.8 min
+[225/457] E5|temporal_traffic1|b19|spot_cal  skel 0.515   161.0s | elapsed  57.9 min, ETA  60.2 min
+[226/457] E5|temporal_traffic1|b18|spot_cal  skel 0.592   172.7s | elapsed  58.0 min, ETA  59.6 min
+[227/457] E1|d25|n2000|seed5|abic+spot_cal  skel 0.807   195.3s | elapsed  59.3 min, ETA  64.5 min
+[228/457] E1|d25|n2000|seed6|abic+spot_cal  skel 0.586   241.5s | elapsed  60.1 min, ETA  68.3 min
+[229/457] E1|d25|n2000|seed9|abic+spot_cal  skel 0.773   272.0s | elapsed  61.1 min, ETA  71.2 min
+[230/457] E5|high_traffic|b8|spot_cal  skel 0.511  1006.3s | elapsed  61.4 min, ETA  70.6 min
+[231/457] E1|d25|n2000|seed4|abic+spot_cal  skel 0.620   378.6s | elapsed  62.1 min, ETA  76.5 min
+[232/457] E1|d25|n2000|seed0|abic+spot_cal  skel 0.594   407.7s | elapsed  62.1 min, ETA  80.8 min
+[233/457] E5|temporal_traffic1|b13|spot_cal  skel 0.500   509.4s | elapsed  62.3 min, ETA  80.3 min
+[234/457] E1|d25|n2000|seed3|abic+spot_cal  skel 0.759   398.9s | elapsed  62.4 min, ETA  82.7 min
+[235/457] E1|d25|n2000|seed8|abic+spot_cal  skel 0.606   419.3s | elapsed  63.3 min, ETA  84.7 min
+[236/457] E1|d25|n2000|seed2|abic+spot_cal  skel 0.611   509.4s | elapsed  64.0 min, ETA  88.0 min
+[237/457] E1|d25|n2000|seed7|abic+spot_cal  skel 0.645   483.2s | elapsed  64.3 min, ETA  89.9 min
+[238/457] E1|d25|n2000|seed1|abic+spot_cal  skel 0.737   547.9s | elapsed  64.6 min, ETA  1.54 h
+[239/457] E1|d25|n1000|seed5|abic+spot_cal+spot  skel 0.814   494.8s | elapsed  65.6 min, ETA  1.56 h
+[240/457] E1|d25|n1000|seed6|abic+spot_cal+spot  skel 0.656   637.0s | elapsed  68.2 min, ETA  1.60 h
+[241/457] E1|d25|n1000|seed4|abic+spot_cal+spot  skel 0.640   696.7s | elapsed  68.7 min, ETA  1.65 h
+[242/457] E1|d25|n500|seed0|abic+spot_cal  skel 0.479   582.5s | elapsed  69.0 min, ETA  1.67 h
+[243/457] E1|d25|n1000|seed2|abic+spot_cal+spot  skel 0.676   752.2s | elapsed  69.4 min, ETA  1.71 h
+[244/457] E1|d25|n1000|seed1|abic+spot_cal+spot  skel 0.718   775.0s | elapsed  69.6 min, ETA  1.75 h
+[245/457] E1|d25|n1000|seed0|abic+spot_cal+spot  skel 0.567   825.3s | elapsed  70.4 min, ETA  1.79 h
+[246/457] E1|d25|n1000|seed3|abic+spot_cal+spot  skel 0.747   865.0s | elapsed  71.4 min, ETA  1.83 h
+[247/457] E1|d25|n1000|seed9|abic+spot_cal+spot  skel 0.806   884.9s | elapsed  72.7 min, ETA  1.86 h
+[248/457] E1|d25|n500|seed2|abic+spot_cal  skel 0.711   704.9s | elapsed  72.8 min, ETA  1.87 h
+[249/457] E1|d25|n1000|seed7|abic+spot_cal+spot  skel 0.554   912.6s | elapsed  73.0 min, ETA  1.90 h
+[250/457] E1|d25|n1000|seed8|abic+spot_cal+spot  skel 0.585   903.4s | elapsed  73.0 min, ETA  1.92 h
+[251/457] E1|d25|n500|seed1|abic+spot_cal  skel 0.747   796.4s | elapsed  73.4 min, ETA  1.93 h
+[252/457] E1|d25|n500|seed3|abic+spot_cal  skel 0.628   782.8s | elapsed  74.5 min, ETA  1.93 h
+[253/457] E1|d25|n500|seed7|abic+spot_cal  skel 0.529   750.6s | elapsed  74.9 min, ETA  1.93 h
+[254/457] E1|d25|n500|seed6|abic+spot_cal  skel 0.618   769.0s | elapsed  75.1 min, ETA  1.93 h
+[255/457] E1|d25|n500|seed5|abic+spot_cal  skel 0.847   813.7s | elapsed  75.7 min, ETA  1.93 h
+[256/457] E1|d25|n500|seed4|abic+spot_cal  skel 0.634   841.5s | elapsed  76.1 min, ETA  1.93 h
+[257/457] E1|d25|n500|seed8|abic+spot_cal  skel 0.615   876.0s | elapsed  77.9 min, ETA  1.94 h
+[258/457] E1|d25|n500|seed9|abic+spot_cal  skel 0.709   855.1s | elapsed  78.3 min, ETA  1.94 h
+[259/457] E9|petshop|low_traffic|gauss_rank  skel 0.545   343.4s | elapsed  78.5 min, ETA  1.96 h
+[260/457] E9|petshop|high_traffic|gauss_rank  skel 0.480   350.1s | elapsed  78.7 min, ETA  1.95 h
+[261/457] E9|petshop|temporal_traffic1|gauss_rank  skel 0.482   357.5s | elapsed  78.9 min, ETA  1.94 h
+[262/457] E1|d25|n200|seed2|abic+spot_cal  skel 0.619   811.6s | elapsed  79.1 min, ETA  1.94 h
+[263/457] E9|petshop|temporal_traffic2|gauss_rank  skel 0.482   368.6s | elapsed  79.1 min, ETA  1.93 h
+[264/457] E9|syn|d25|n200|seed0  skel 0.735   359.5s | elapsed  79.4 min, ETA  2.27 h
+[265/457] E9|syn|d25|n200|seed1  skel 0.793   295.6s | elapsed  79.4 min, ETA  2.23 h
+[266/457] E9|syn|d25|n200|seed2  skel 0.750   281.2s | elapsed  79.6 min, ETA  2.21 h
+[267/457] E9|syn|d25|n200|seed3  skel 0.814   271.3s | elapsed  79.6 min, ETA  2.19 h
+[268/457] E9|syn|d25|n200|seed5  skel 0.923   224.7s | elapsed  79.8 min, ETA  2.17 h
+[269/457] E9|syn|d25|n200|seed4  skel 0.767   250.4s | elapsed  79.8 min, ETA  2.16 h
+[270/457] E9|syn|d25|n200|seed6  skel 0.826   131.2s | elapsed  80.1 min, ETA  2.14 h
+[271/457] E9|syn|d25|n200|seed7  skel 0.655   110.3s | elapsed  80.1 min, ETA  2.11 h
+[272/457] E1|d25|n200|seed5|abic+spot_cal  skel 0.704   674.1s | elapsed  80.2 min, ETA  2.10 h
+[273/457] E9|syn|d25|n200|seed8  skel 0.792   110.4s | elapsed  80.3 min, ETA  2.08 h
+[274/457] E9|syn|d25|n200|seed9  skel 0.807   102.7s | elapsed  80.4 min, ETA  2.07 h
+[275/457] E9|syn|d25|n500|seed0  skel 0.755    93.8s | elapsed  80.5 min, ETA  2.05 h
+[276/457] E9|syn|d25|n500|seed1  skel 0.889    84.9s | elapsed  80.5 min, ETA  2.04 h
+[277/457] E9|syn|d25|n500|seed2  skel 0.807    86.4s | elapsed  80.6 min, ETA  2.03 h
+[278/457] E9|syn|d25|n500|seed3  skel 0.885    80.6s | elapsed  80.7 min, ETA  2.02 h
+[279/457] E9|syn|d25|n500|seed4  skel 0.820    82.5s | elapsed  80.8 min, ETA  2.01 h
+[280/457] E9|syn|d25|n500|seed5  skel 0.943    70.8s | elapsed  80.8 min, ETA  2.00 h
+[281/457] E9|syn|d25|n500|seed6  skel 0.851    77.3s | elapsed  80.9 min, ETA  2.00 h
+[282/457] E9|syn|d25|n500|seed8  skel 0.897    68.9s | elapsed  81.0 min, ETA  1.99 h
+[283/457] E9|syn|d25|n500|seed7  skel 0.733    69.7s | elapsed  81.0 min, ETA  1.98 h
+[284/457] E9|syn|d25|n500|seed9  skel 0.951    62.9s | elapsed  81.1 min, ETA  1.98 h
+[285/457] E9|syn|d25|n1000|seed0  skel 0.815    66.1s | elapsed  81.2 min, ETA  1.97 h
+[286/457] E9|syn|d25|n1000|seed1  skel 0.892    59.2s | elapsed  81.2 min, ETA  1.97 h
+[287/457] E1|d25|n200|seed0|abic+spot_cal  skel 0.466  1015.9s | elapsed  81.3 min, ETA  1.98 h
+[288/457] E9|syn|d25|n1000|seed2  skel 0.820    63.8s | elapsed  81.4 min, ETA  1.97 h
+[289/457] E9|syn|d25|n1000|seed3  skel 0.921    66.6s | elapsed  81.5 min, ETA  1.97 h
+[290/457] E9|syn|d25|n1000|seed4  skel 0.857    60.1s | elapsed  81.5 min, ETA  1.96 h
+[291/457] E9|syn|d25|n1000|seed5  skel 0.963    57.6s | elapsed  81.5 min, ETA  1.96 h
+[292/457] E9|syn|d25|n1000|seed6  skel 0.809    60.3s | elapsed  81.6 min, ETA  1.95 h
+[293/457] E9|syn|d25|n1000|seed8  skel 0.897    58.0s | elapsed  81.7 min, ETA  1.95 h
+[294/457] E9|syn|d25|n1000|seed9  skel 0.968    57.2s | elapsed  81.7 min, ETA  1.95 h
+[295/457] E9|syn|d25|n1000|seed7  skel 0.754    62.6s | elapsed  81.8 min, ETA  1.94 h
+[296/457] E9|syn|d25|n2000|seed0  skel 0.857    56.9s | elapsed  81.9 min, ETA  1.94 h
+[297/457] E9|syn|d25|n2000|seed1  skel 0.921    61.5s | elapsed  82.0 min, ETA  1.94 h
+[298/457] E9|syn|d25|n2000|seed2  skel 0.871    61.4s | elapsed  82.0 min, ETA  1.93 h
+[299/457] E9|syn|d25|n2000|seed3  skel 0.938    55.7s | elapsed  82.0 min, ETA  1.93 h
+[300/457] E1|d25|n200|seed6|abic+spot_cal  skel 0.655   762.2s | elapsed  82.1 min, ETA  1.92 h
+[301/457] E9|syn|d25|n2000|seed4  skel 0.892    57.7s | elapsed  82.2 min, ETA  1.92 h
+[302/457] E9|syn|d25|n2000|seed5  skel 0.963    66.5s | elapsed  82.3 min, ETA  1.91 h
+[303/457] E9|syn|d25|n2000|seed6  skel 0.875    65.0s | elapsed  82.3 min, ETA  1.91 h
+[304/457] E9|syn|d25|n2000|seed8  skel 0.951    53.0s | elapsed  82.4 min, ETA  1.91 h
+[305/457] E1|d25|n200|seed3|abic+spot_cal  skel 0.614   848.7s | elapsed  82.4 min, ETA  1.90 h
+[306/457] E9|syn|d25|n2000|seed7  skel 0.754    62.0s | elapsed  82.4 min, ETA  1.90 h
+[307/457] E9|syn|d25|n2000|seed9  skel 0.968    57.1s | elapsed  82.4 min, ETA  1.90 h
+[308/457] E1|d25|n200|seed1|abic+spot_cal  skel 0.667  1076.7s | elapsed  82.6 min, ETA  1.90 h
+[309/457] E1|d25|n200|seed4|abic+spot_cal  skel 0.756   838.5s | elapsed  82.7 min, ETA  1.89 h
+[310/457] E10|low_traffic|gauss_rank|seed0|abic_dir|budgetNone  skel 0.471    78.2s | elapsed  83.0 min, ETA  1.89 h
+[311/457] E10|low_traffic|gauss_rank|seed2|abic_dir|budgetNone  skel 0.500    81.9s | elapsed  83.2 min, ETA  1.88 h
+[312/457] E10|low_traffic|gauss_rank|seed1|abic_dir|budgetNone  skel 0.481    88.4s | elapsed  83.2 min, ETA  1.87 h
+[313/457] E10|high_traffic|gauss_rank|seed2|abic_dir|budgetNone  skel 0.480   117.5s | elapsed  83.7 min, ETA  1.86 h
+[314/457] E10|temporal_traffic1|gauss_rank|seed1|abic_dir|budgetNone  skel 0.473   100.6s | elapsed  83.7 min, ETA  1.85 h
+[315/457] E10|high_traffic|gauss_rank|seed0|abic_dir|budgetNone  skel 0.541   140.6s | elapsed  83.9 min, ETA  1.84 h
+[316/457] E1|d25|n200|seed8|abic+spot_cal  skel 0.576   812.6s | elapsed  84.0 min, ETA  1.83 h
+[317/457] E10|temporal_traffic2|gauss_rank|seed1|abic_dir|budgetNone  skel 0.473   122.9s | elapsed  84.2 min, ETA  1.83 h
+[318/457] E10|high_traffic|gauss_rank|seed0|spot_cal_dir|budgetNone  skel 0.583   116.3s | elapsed  84.3 min, ETA  1.82 h
+[319/457] E10|temporal_traffic2|gauss_rank|seed0|abic_dir|budgetNone  skel 0.421   141.3s | elapsed  84.4 min, ETA  1.81 h
+[320/457] E10|high_traffic|gauss_rank|seed2|spot_cal_dir|budgetNone  skel 0.583   125.6s | elapsed  84.5 min, ETA  1.80 h
+[321/457] E10|low_traffic|gauss_rank|seed0|spot_cal_dir|budgetNone  skel 0.471   126.4s | elapsed  84.5 min, ETA  1.79 h
+[322/457] E10|high_traffic|gauss_rank|seed1|spot_cal_dir|budgetNone  skel 0.528   130.3s | elapsed  84.5 min, ETA  1.79 h
+[323/457] E10|temporal_traffic1|gauss_rank|seed2|abic_dir|budgetNone  skel 0.400   151.1s | elapsed  84.6 min, ETA  1.78 h
+[324/457] E10|temporal_traffic2|gauss_rank|seed2|abic_dir|budgetNone  skel 0.386   134.7s | elapsed  84.6 min, ETA  1.77 h
+[325/457] E10|temporal_traffic1|gauss_rank|seed0|abic_dir|budgetNone  skel 0.386   158.4s | elapsed  84.7 min, ETA  1.77 h
+[326/457] E10|low_traffic|gauss_rank|seed1|spot_cal_dir|budgetNone  skel 0.480   136.7s | elapsed  84.7 min, ETA  1.76 h
+[327/457] E1|d25|n200|seed9|abic+spot_cal  skel 0.644   818.6s | elapsed  85.0 min, ETA  1.75 h
+[328/457] E10|low_traffic|gauss_rank|seed2|spot_cal_dir|budgetNone  skel 0.510   149.6s | elapsed  85.0 min, ETA  1.74 h
+[329/457] E10|temporal_traffic1|gauss_rank|seed1|spot_cal_dir|budgetNone  skel 0.373   120.6s | elapsed  85.1 min, ETA  1.73 h
+[330/457] E10|temporal_traffic2|gauss_rank|seed1|spot_cal_dir|budgetNone  skel 0.400    83.4s | elapsed  85.1 min, ETA  1.73 h
+[331/457] E10|temporal_traffic1|gauss_rank|seed2|spot_cal_dir|budgetNone  skel 0.393   128.6s | elapsed  85.4 min, ETA  1.72 h
+[332/457] E10|temporal_traffic2|gauss_rank|seed0|spot_cal_dir|budgetNone  skel 0.385   128.7s | elapsed  85.4 min, ETA  1.71 h
+[333/457] E10|temporal_traffic2|gauss_rank|seed2|spot_cal_dir|budgetNone  skel 0.429   104.8s | elapsed  85.4 min, ETA  1.71 h
+[334/457] E10|high_traffic|gauss_rank|seed1|abic_dir|budgetNone  skel 0.480   264.5s | elapsed  86.0 min, ETA  1.70 h
+[335/457] E1|d25|n200|seed7|abic+spot_cal  skel 0.493   991.4s | elapsed  86.2 min, ETA  1.70 h
+[336/457] E10|temporal_traffic1|gauss_rank|seed0|spot_cal_dir|budgetNone  skel 0.377   212.9s | elapsed  86.2 min, ETA  1.69 h
+[337/457] E2|d25|n1000|dens1.0|snrNone|ar0.0|mis0.0|seed0|abic+spot_cal  skel 0.784   240.6s | elapsed  88.6 min, ETA  1.65 h
+[338/457] E2|d25|n1000|dens1.0|snrNone|ar0.0|mis0.0|seed1|abic+spot_cal  skel 0.857   483.1s | elapsed  1.54 h, ETA  1.62 h
+[339/457] E2|d25|n1000|dens1.0|snrNone|ar0.0|mis0.0|seed2|abic+spot_cal  skel 0.742   572.1s | elapsed  1.57 h, ETA  1.60 h
+[340/457] E2|d25|n1000|dens1.0|snrNone|ar0.0|mis0.0|seed3|abic+spot_cal  skel 0.691   704.1s | elapsed  1.61 h, ETA  1.58 h
+[341/457] E2|d25|n1000|dens1.0|snrNone|ar0.0|mis0.0|seed5|abic+spot_cal  skel 0.733   795.4s | elapsed  1.64 h, ETA  1.57 h
+[342/457] E2|d25|n1000|dens1.0|snrNone|ar0.0|mis0.0|seed6|abic+spot_cal  skel 0.704   879.4s | elapsed  1.66 h, ETA  1.56 h
+[343/457] E2|d25|n1000|dens1.0|snrNone|ar0.0|mis0.0|seed4|abic+spot_cal  skel 0.772   966.6s | elapsed  1.69 h, ETA  1.56 h
+[344/457] E2|d25|n1000|dens1.0|snrNone|ar0.0|mis0.0|seed7|abic+spot_cal  skel 0.633  1226.6s | elapsed  1.76 h, ETA  1.56 h
+[345/457] E2|d25|n1000|dens2.0|snrNone|ar0.0|mis0.0|seed0|abic+spot_cal  skel 0.494  1542.5s | elapsed  1.85 h, ETA  1.57 h
+[346/457] E2|d25|n1000|dens3.0|snrNone|ar0.0|mis0.0|seed6|abic+spot_cal  skel 0.437  1618.1s | elapsed  1.86 h, ETA  1.59 h
+[347/457] E2|d25|n1000|dens2.0|snrNone|ar0.0|mis0.0|seed2|abic+spot_cal  skel 0.600  1648.3s | elapsed  1.88 h, ETA  1.60 h
+[348/457] E2|d25|n1000|dens2.0|snrNone|ar0.0|mis0.0|seed1|abic+spot_cal  skel 0.581  1861.8s | elapsed  1.94 h, ETA  1.61 h
+[349/457] E2|d25|n1000|dens3.0|snrNone|ar0.0|mis0.0|seed1|abic+spot_cal  skel 0.355  2027.1s | elapsed  1.96 h, ETA  1.63 h
+[350/457] E2|d25|n1000|dens2.0|snrNone|ar0.0|mis0.0|seed5|abic+spot_cal  skel 0.545  2026.7s | elapsed  2.00 h, ETA  1.65 h
+[351/457] E2|d25|n1000|dens2.0|snrNone|ar0.0|mis0.0|seed3|abic+spot_cal  skel 0.610  2050.4s | elapsed  2.00 h, ETA  1.67 h
+[352/457] E2|d25|n1000|dens2.0|snrNone|ar0.0|mis0.0|seed4|abic+spot_cal  skel 0.667  2127.4s | elapsed  2.03 h, ETA  1.68 h
+[353/457] E2|d25|n1000|densNone|snr10.0|ar0.0|mis0.0|seed1|abic+spot_cal  skel 0.700  1528.2s | elapsed  2.03 h, ETA  1.68 h
+[354/457] E2|d25|n1000|densNone|snr10.0|ar0.0|mis0.0|seed2|abic+spot_cal  skel 0.730  1486.0s | elapsed  2.05 h, ETA  1.67 h
+[355/457] E2|d25|n1000|densNone|snr10.0|ar0.0|mis0.0|seed3|abic+spot_cal  skel 0.684  1472.4s | elapsed  2.07 h, ETA  1.67 h
+[356/457] E2|d25|n1000|densNone|snr10.0|ar0.0|mis0.0|seed0|abic+spot_cal  skel 0.559  1819.2s | elapsed  2.08 h, ETA  1.67 h
+[357/457] E2|d25|n1000|dens2.0|snrNone|ar0.0|mis0.0|seed6|abic+spot_cal  skel 0.598  2173.8s | elapsed  2.08 h, ETA  1.67 h
+[358/457] E2|d25|n1000|densNone|snr10.0|ar0.0|mis0.0|seed4|abic+spot_cal  skel 0.747  1432.8s | elapsed  2.08 h, ETA  1.66 h
+[359/457] E2|d25|n1000|densNone|snr10.0|ar0.0|mis0.0|seed5|abic+spot_cal  skel 0.769  1198.8s | elapsed  2.09 h, ETA  1.64 h
+[360/457] E2|d25|n1000|densNone|snr10.0|ar0.0|mis0.0|seed6|abic+spot_cal  skel 0.613   881.5s | elapsed  2.10 h, ETA  1.62 h
+[361/457] E2|d25|n1000|densNone|snr3.0|ar0.0|mis0.0|seed0|abic+spot_cal  skel 0.583   806.5s | elapsed  2.11 h, ETA  1.59 h
+[362/457] E2|d25|n1000|densNone|snr10.0|ar0.0|mis0.0|seed7|abic+spot_cal  skel 0.561   917.9s | elapsed  2.11 h, ETA  1.57 h
+[363/457] E2|d25|n1000|densNone|snr3.0|ar0.0|mis0.0|seed3|abic+spot_cal  skel 0.685   437.6s | elapsed  2.12 h, ETA  1.53 h
+[364/457] E2|d25|n1000|densNone|snr3.0|ar0.0|mis0.0|seed1|abic+spot_cal  skel 0.651   654.3s | elapsed  2.12 h, ETA  1.50 h
+[365/457] E2|d25|n1000|densNone|snr3.0|ar0.0|mis0.0|seed2|abic+spot_cal  skel 0.709   574.8s | elapsed  2.12 h, ETA  88.4 min
+[366/457] E2|d25|n1000|densNone|snr3.0|ar0.0|mis0.0|seed4|abic+spot_cal  skel 0.696   478.8s | elapsed  2.14 h, ETA  86.5 min
+[367/457] E2|d25|n1000|densNone|snr3.0|ar0.0|mis0.0|seed5|abic+spot_cal  skel 0.667   413.9s | elapsed  2.14 h, ETA  84.6 min
+[368/457] E2|d25|n1000|densNone|snr1.0|ar0.0|mis0.0|seed1|abic+spot_cal  skel 0.593   283.8s | elapsed  2.15 h, ETA  82.5 min
+[369/457] E2|d25|n1000|densNone|snr3.0|ar0.0|mis0.0|seed6|abic+spot_cal  skel 0.553   441.0s | elapsed  2.15 h, ETA  80.7 min
+[370/457] E2|d25|n1000|densNone|snr1.0|ar0.0|mis0.0|seed0|abic+spot_cal  skel 0.533   302.4s | elapsed  2.15 h, ETA  78.8 min
+[371/457] E2|d25|n1000|densNone|snr3.0|ar0.0|mis0.0|seed7|abic+spot_cal  skel 0.476   383.6s | elapsed  2.16 h, ETA  77.0 min
+[372/457] E2|d25|n1000|densNone|snr1.0|ar0.0|mis0.0|seed2|abic+spot_cal  skel 0.658   323.9s | elapsed  2.17 h, ETA  75.1 min
+[373/457] E2|d25|n1000|densNone|snr1.0|ar0.0|mis0.0|seed5|abic+spot_cal  skel 0.696   285.5s | elapsed  2.18 h, ETA  73.3 min
+[374/457] E2|d25|n1000|densNone|snr1.0|ar0.0|mis0.0|seed3|abic+spot_cal  skel 0.667   342.3s | elapsed  2.18 h, ETA  71.5 min
+[375/457] E2|d25|n1000|densNone|snr1.0|ar0.0|mis0.0|seed4|abic+spot_cal  skel 0.612   320.2s | elapsed  2.18 h, ETA  69.8 min
+[376/457] E2|d25|n1000|densNone|snr1.0|ar0.0|mis0.0|seed6|abic+spot_cal  skel 0.500   277.8s | elapsed  2.18 h, ETA  68.1 min
+[377/457] E2|d25|n1000|densNone|snr1.0|ar0.0|mis0.0|seed7|abic+spot_cal  skel 0.411   306.5s | elapsed  2.20 h, ETA  66.4 min
+[378/457] E2|d25|n1000|dens2.0|snrNone|ar0.0|mis0.0|seed7|abic+spot_cal  skel 0.566  2362.7s | elapsed  2.20 h, ETA  66.2 min
+[379/457] E2|d25|n1000|densNone|snrNone|ar0.3|mis0.0|seed1|abic+spot_cal  skel 0.703   582.4s | elapsed  2.28 h, ETA  64.7 min
+[380/457] E2|d25|n1000|densNone|snrNone|ar0.3|mis0.0|seed2|abic+spot_cal  skel 0.694   586.9s | elapsed  2.29 h, ETA  63.2 min
+[381/457] E2|d25|n1000|densNone|snrNone|ar0.3|mis0.0|seed3|abic+spot_cal  skel 0.704   612.5s | elapsed  2.31 h, ETA  61.7 min
+[382/457] E2|d25|n1000|dens3.0|snrNone|ar0.0|mis0.0|seed4|abic+spot_cal  skel 0.386  3248.1s | elapsed  2.31 h, ETA  61.9 min
+[383/457] E2|d25|n1000|densNone|snrNone|ar0.3|mis0.0|seed5|abic+spot_cal  skel 0.746   595.9s | elapsed  2.32 h, ETA  60.4 min
+[384/457] E2|d25|n1000|densNone|snrNone|ar0.3|mis0.0|seed4|abic+spot_cal  skel 0.613   660.3s | elapsed  2.33 h, ETA  58.9 min
+[385/457] E2|d25|n1000|densNone|snrNone|ar0.3|mis0.0|seed6|abic+spot_cal  skel 0.615   726.9s | elapsed  2.36 h, ETA  57.5 min
+[386/457] E2|d25|n1000|densNone|snrNone|ar0.3|mis0.0|seed0|abic+spot_cal  skel 0.594   861.1s | elapsed  2.36 h, ETA  56.2 min
+[387/457] E2|d25|n1000|densNone|snrNone|ar0.3|mis0.0|seed7|abic+spot_cal  skel 0.594   822.6s | elapsed  2.38 h, ETA  54.9 min
+[388/457] E2|d25|n1000|densNone|snrNone|ar0.6|mis0.0|seed1|abic+spot_cal  skel 0.692   855.9s | elapsed  2.41 h, ETA  53.5 min
+[389/457] E2|d25|n1000|dens3.0|snrNone|ar0.0|mis0.0|seed0|abic+spot_cal  skel 0.446  3640.3s | elapsed  2.41 h, ETA  53.4 min
+[390/457] E2|d25|n1000|densNone|snrNone|ar0.6|mis0.0|seed0|abic+spot_cal  skel 0.540   990.1s | elapsed  2.43 h, ETA  52.1 min
+[391/457] E2|d25|n1000|densNone|snrNone|ar0.6|mis0.0|seed2|abic+spot_cal  skel 0.686   974.0s | elapsed  2.45 h, ETA  50.8 min
+[392/457] E2|d25|n1000|densNone|snrNone|ar0.0|mis0.05|seed0|abic+spot_cal  skel 0.554   652.3s | elapsed  2.46 h, ETA  49.3 min
+[393/457] E2|d25|n1000|densNone|snrNone|ar0.6|mis0.0|seed5|abic+spot_cal  skel 0.759  1058.2s | elapsed  2.48 h, ETA  48.0 min
+[394/457] E2|d25|n1000|densNone|snrNone|ar0.0|mis0.05|seed1|abic+spot_cal  skel 0.718   700.1s | elapsed  2.48 h, ETA  46.5 min
+[395/457] E2|d25|n1000|densNone|snrNone|ar0.6|mis0.0|seed4|abic+spot_cal  skel 0.578  1094.3s | elapsed  2.48 h, ETA  45.2 min
+[396/457] E2|d25|n1000|densNone|snrNone|ar0.6|mis0.0|seed3|abic+spot_cal  skel 0.730  1107.8s | elapsed  2.49 h, ETA  43.9 min
+[397/457] E2|d25|n1000|densNone|snrNone|ar0.6|mis0.0|seed6|abic+spot_cal  skel 0.618  1063.8s | elapsed  2.49 h, ETA  42.6 min
+[398/457] E2|d25|n1000|densNone|snrNone|ar0.0|mis0.05|seed2|abic+spot_cal  skel 0.667   716.3s | elapsed  2.51 h, ETA  41.2 min
+[399/457] E2|d25|n1000|densNone|snrNone|ar0.0|mis0.05|seed5|abic+spot_cal  skel 0.820   658.4s | elapsed  2.51 h, ETA  39.8 min
+[400/457] E2|d25|n1000|densNone|snrNone|ar0.0|mis0.2|seed0|abic+spot_cal  skel 0.560   510.4s | elapsed  2.53 h, ETA  38.3 min
+[401/457] E2|d25|n1000|densNone|snrNone|ar0.0|mis0.2|seed1|abic+spot_cal  skel 0.714   448.1s | elapsed  2.53 h, ETA  36.8 min
+[402/457] E2|d25|n1000|densNone|snrNone|ar0.0|mis0.05|seed6|abic+spot_cal  skel 0.613   649.8s | elapsed  2.54 h, ETA  35.4 min
+[403/457] E2|d25|n1000|densNone|snrNone|ar0.0|mis0.2|seed2|abic+spot_cal  skel 0.737   504.7s | elapsed  2.55 h, ETA  34.0 min
+[404/457] E2|d25|n1000|densNone|snrNone|ar0.0|mis0.2|seed3|abic+spot_cal  skel 0.676   424.6s | elapsed  2.55 h, ETA  32.6 min
+[405/457] E2|d25|n1000|densNone|snrNone|ar0.0|mis0.05|seed7|abic+spot_cal  skel 0.526   686.5s | elapsed  2.55 h, ETA  31.2 min
+[406/457] E2|d25|n1000|densNone|snrNone|ar0.0|mis0.05|seed4|abic+spot_cal  skel 0.701   849.2s | elapsed  2.56 h, ETA  29.9 min
+[low_traffic] 14 latency issues (train 4, test 10); n_normal=589 d=29
+[low_traffic] graph truth     seed -1: 30 directed + 1 bidirected  (truth)
+[407/457] E2|d25|n1000|densNone|snrNone|ar0.0|mis0.05|seed3|abic+spot_cal  skel 0.693   901.2s | elapsed  2.56 h, ETA  28.5 min
+[low_traffic] 14 latency issues (train 4, test 10); n_normal=589 d=29
+[408/457] E2|d25|n1000|densNone|snrNone|ar0.0|mis0.2|seed5|abic+spot_cal  skel 0.725   381.7s | elapsed  2.57 h, ETA  27.2 min
+[low_traffic] 14 latency issues (train 4, test 10); n_normal=589 d=29
+[409/457] E2|d25|n1000|densNone|snrNone|ar0.6|mis0.0|seed7|abic+spot_cal  skel 0.585  1351.2s | elapsed  2.58 h, ETA  25.9 min
+[410/457] E2|d25|n1000|densNone|snrNone|ar0.0|mis0.2|seed4|abic+spot_cal  skel 0.667   467.0s | elapsed  2.58 h, ETA  24.5 min
+[high_traffic] 14 latency issues (train 4, test 10); n_normal=589 d=35
+[high_traffic] graph truth     seed -1: 38 directed + 0 bidirected  (truth)
+[high_traffic] 14 latency issues (train 4, test 10); n_normal=589 d=35
+[411/457] E2|d25|n1000|densNone|snrNone|ar0.0|mis0.2|seed7|abic+spot_cal  skel 0.511   362.7s | elapsed  2.58 h, ETA  23.1 min
+[high_traffic] 14 latency issues (train 4, test 10); n_normal=589 d=35
+[412/457] E2|d25|n1000|densNone|snrNone|ar0.0|mis0.2|seed6|abic+spot_cal  skel 0.576   377.3s | elapsed  2.58 h, ETA  21.8 min
+[temporal_traffic1] 4 latency issues (train 1, test 3); n_normal=1652 d=31
+[temporal_traffic1] graph truth     seed -1: 32 directed + 1 bidirected  (truth)
+[low_traffic] graph abic      seed  0: 7 directed + 25 bidirected  (learned)
+[low_traffic] graph abic      seed  2: 7 directed + 24 bidirected  (learned)
+[low_traffic] graph spot_cal  seed  0: 11 directed + 20 bidirected  (learned)
+[413/457] E12|low_traffic|graphseed0  364 rows   464.9s | elapsed  2.61 h, ETA  22.3 min
+wrote 364 rows -> /home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M3_g6_th_apl_cybersecurity_team/Code/src/results/_queue_tmp/rca_73971_1793801091529.jsonl
+[temporal_traffic1] 4 latency issues (train 1, test 3); n_normal=1652 d=31
+[low_traffic] graph spot_cal  seed  2: 10 directed + 20 bidirected  (learned)
+[414/457] E12|low_traffic|graphseed2  252 rows   438.9s | elapsed  2.62 h, ETA  21.4 min
+wrote 252 rows -> /home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M3_g6_th_apl_cybersecurity_team/Code/src/results/_queue_tmp/rca_73977_1793801146984.jsonl
+[temporal_traffic1] 4 latency issues (train 1, test 3); n_normal=1652 d=31
+[temporal_traffic1] graph abic      seed  2: 5 directed + 31 bidirected  (learned)
+[temporal_traffic1] graph abic      seed  1: 6 directed + 34 bidirected  (learned)
+[temporal_traffic1] graph abic      seed  0: 6 directed + 30 bidirected  (learned)
+[temporal_traffic1] graph spot_cal  seed  2: 10 directed + 21 bidirected  (learned)
+[415/457] E12|temporal_traffic1|graphseed2  72 rows   451.6s | elapsed  2.67 h, ETA  20.7 min
+wrote 72 rows -> /home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M3_g6_th_apl_cybersecurity_team/Code/src/results/_queue_tmp/rca_73977_1793801307053.jsonl
+[temporal_traffic2] 4 latency issues (train 1, test 3); n_normal=1652 d=31
+[temporal_traffic2] graph truth     seed -1: 32 directed + 1 bidirected  (truth)
+[temporal_traffic1] graph spot_cal  seed  1: 10 directed + 27 bidirected  (learned)
+[416/457] E12|temporal_traffic1|graphseed1  72 rows   515.1s | elapsed  2.68 h, ETA  20.2 min
+wrote 72 rows -> /home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M3_g6_th_apl_cybersecurity_team/Code/src/results/_queue_tmp/rca_73971_1793801301445.jsonl
+[temporal_traffic2] 4 latency issues (train 1, test 3); n_normal=1652 d=31
+[temporal_traffic1] graph spot_cal  seed  0: 10 directed + 27 bidirected  (learned)
+[417/457] E12|temporal_traffic1|graphseed0  104 rows   536.2s | elapsed  2.68 h, ETA  19.6 min
+wrote 104 rows -> /home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M3_g6_th_apl_cybersecurity_team/Code/src/results/_queue_tmp/rca_73973_1793801186981.jsonl
+[temporal_traffic2] 4 latency issues (train 1, test 3); n_normal=1652 d=31
+[high_traffic] graph abic      seed  1: 13 directed + 38 bidirected  (learned)
+[high_traffic] graph abic      seed  0: 11 directed + 38 bidirected  (learned)
+[high_traffic] graph spot_cal  seed  1: 18 directed + 25 bidirected  (learned)
+[418/457] E12|high_traffic|graphseed1  252 rows   694.7s | elapsed  2.70 h, ETA  19.2 min
+[low_traffic] graph abic      seed  1: 8 directed + 26 bidirected  (learned)
+[high_traffic] graph abic      seed  2: 16 directed + 40 bidirected  (learned)
+[temporal_traffic2] graph abic      seed  1: 7 directed + 34 bidirected  (learned)
+[temporal_traffic2] graph abic      seed  0: 7 directed + 37 bidirected  (learned)
+[419/457] E7|simulated  3 rows   576.6s | elapsed  2.72 h, ETA  22.4 min
+[high_traffic] graph spot_cal  seed  0: 15 directed + 35 bidirected  (learned)
+[420/457] E12|high_traffic|graphseed0  364 rows   798.5s | elapsed  2.73 h, ETA  22.0 min
+[421/457] E7|low_traffic  3 rows   561.9s | elapsed  2.73 h, ETA  21.0 min
+[temporal_traffic2] graph spot_cal  seed  1: 9 directed + 27 bidirected  (learned)
+[422/457] E12|temporal_traffic2|graphseed1  72 rows   638.2s | elapsed  2.73 h, ETA  20.3 min
+[high_traffic] graph spot_cal  seed  2: 15 directed + 34 bidirected  (learned)
+[423/457] E12|high_traffic|graphseed2  252 rows   748.3s | elapsed  2.73 h, ETA  19.5 min
+[temporal_traffic2] graph spot_cal  seed  0: 10 directed + 27 bidirected  (learned)
+[424/457] E12|temporal_traffic2|graphseed0  104 rows   656.6s | elapsed  2.73 h, ETA  18.6 min
+[425/457] E7|temporal_traffic1  3 rows   570.4s | elapsed  2.73 h, ETA  17.8 min
+[426/457] E7|high_traffic  3 rows   577.1s | elapsed  2.74 h, ETA  16.9 min
+[427/457] E7|temporal_traffic2  3 rows   561.0s | elapsed  2.74 h, ETA  16.0 min
+[low_traffic] graph spot_cal  seed  1: 9 directed + 20 bidirected  (learned)
+[428/457] E12|low_traffic|graphseed1  252 rows   901.8s | elapsed  2.74 h, ETA  15.2 min
+[429/457] E13|low_traffic|raw_centered|seed0|abic|budgetNone  skel 0.200   371.3s | elapsed  2.78 h, ETA  14.8 min
+[430/457] E13|low_traffic|raw_centered|seed1|abic|budgetNone  skel 0.205   394.4s | elapsed  2.79 h, ETA  14.5 min
+[temporal_traffic2] graph abic      seed  2: 8 directed + 22 bidirected  (learned)
+[temporal_traffic2] graph spot_cal  seed  2: 9 directed + 27 bidirected  (learned)
+[431/457] E12|temporal_traffic2|graphseed2  72 rows   945.2s | elapsed  2.82 h, ETA  13.6 min
+[432/457] E13|high_traffic|raw_centered|seed0|abic|budgetNone  skel 0.415   875.7s | elapsed  2.83 h, ETA  13.3 min
+[433/457] E13|temporal_traffic1|raw_centered|seed0|abic|budgetNone  skel 0.182   454.1s | elapsed  2.83 h, ETA  13.0 min
+[434/457] E13|high_traffic|raw_centered|seed1|abic|budgetNone  skel 0.385   836.2s | elapsed  2.85 h, ETA  12.7 min
+[435/457] E13|temporal_traffic1|raw_centered|seed2|abic|budgetNone  skel 0.093   440.0s | elapsed  2.85 h, ETA  12.4 min
+[436/457] E13|temporal_traffic1|raw_centered|seed1|abic|budgetNone  skel 0.182   495.7s | elapsed  2.86 h, ETA  12.0 min
+[437/457] E13|high_traffic|raw_centered|seed2|abic|budgetNone  skel 0.415   883.1s | elapsed  2.86 h, ETA  11.7 min
+[438/457] E13|high_traffic|raw_centered|seed2|spot_cal|budgetNone  skel 0.453   557.6s | elapsed  2.89 h, ETA  11.4 min
+[439/457] E13|high_traffic|raw_centered|seed1|spot_cal|budgetNone  skel 0.453   610.5s | elapsed  2.90 h, ETA  11.0 min
+[440/457] E13|low_traffic|raw_centered|seed0|spot_cal|budgetNone  skel 0.308   615.1s | elapsed  2.91 h, ETA  10.7 min
+[441/457] E13|low_traffic|raw_centered|seed2|abic|budgetNone  skel 0.054   822.5s | elapsed  2.91 h, ETA  10.3 min
+[442/457] E13|temporal_traffic2|raw_centered|seed1|abic|budgetNone  skel 0.190   684.1s | elapsed  2.92 h, ETA   9.9 min
+[443/457] E13|temporal_traffic2|raw_centered|seed0|abic|budgetNone  skel 0.128   708.3s | elapsed  2.92 h, ETA   9.6 min
+[444/457] E13|low_traffic|raw_centered|seed2|spot_cal|budgetNone  skel 0.300   547.3s | elapsed  2.93 h, ETA   9.2 min
+[445/457] E13|low_traffic|raw_centered|seed1|spot_cal|budgetNone  skel 0.308   702.2s | elapsed  2.93 h, ETA   8.8 min
+[446/457] E13|temporal_traffic2|raw_centered|seed2|abic|budgetNone  skel 0.154   776.2s | elapsed  2.95 h, ETA   8.4 min
+[447/457] E13|temporal_traffic1|raw_centered|seed2|spot_cal|budgetNone  skel 0.227   448.9s | elapsed  2.95 h, ETA   8.7 min
+[448/457] E13|temporal_traffic1|raw_centered|seed1|spot_cal|budgetNone  skel 0.263   480.6s | elapsed  2.95 h, ETA   9.2 min
+[449/457] E13|high_traffic|raw_centered|seed0|spot_cal|budgetNone  skel 0.415   791.8s | elapsed  2.95 h, ETA   9.7 min
+[450/457] E13|temporal_traffic2|raw_centered|seed0|spot_cal|budgetNone  skel 0.263   476.1s | elapsed  2.96 h, ETA  10.4 min
+[451/457] E13|temporal_traffic2|raw_centered|seed1|spot_cal|budgetNone  skel 0.217   415.8s | elapsed  2.96 h, ETA  11.3 min
+[452/457] E13|temporal_traffic2|raw_centered|seed2|spot_cal|budgetNone  skel 0.213   412.3s | elapsed  2.96 h, ETA  12.6 min
+[453/457] E13|temporal_traffic1|raw_centered|seed0|spot_cal|budgetNone  skel 0.211   635.0s | elapsed  2.97 h, ETA  14.5 min
+[454/457] E2|d25|n1000|dens3.0|snrNone|ar0.0|mis0.0|seed3|abic+spot_cal  skel 0.387  12100.6s | elapsed  4.77 h, ETA  16.1 min
+[455/457] E2|d25|n1000|dens3.0|snrNone|ar0.0|mis0.0|seed5|abic+spot_cal  skel 0.446  12237.4s | elapsed  4.81 h, ETA  17.7 min
+[456/457] E2|d25|n1000|dens3.0|snrNone|ar0.0|mis0.0|seed7|abic+spot_cal  skel 0.391  16199.0s | elapsed  5.91 h, ETA  19.8 min
