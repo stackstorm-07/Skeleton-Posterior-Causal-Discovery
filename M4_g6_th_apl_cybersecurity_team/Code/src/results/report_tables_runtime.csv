@@ -1,0 +1,4 @@
+method,offline training (one-time),online posterior / run,optimization / run (all runs),optimization / run (scenario mean),vs ABIC,L-BFGS evals / run,free pairs (of d(d-1)/2),converged
+ABIC,n/a,0,115 s,107 s,1.00x,"97,916",all,8/8
+SPOT (calibrated floor 6e-3),203 s,0.32 s,46 s,45 s,0.42x,"40,331",105,8/8
+SPOT (released floor 1e-3),203 s,0.32 s,58 s,57 s,0.53x,"49,784",198,8/8

@@ -1,0 +1,6 @@
+[submodule "M3_g6_th_apl_cybersecurity_team/Data/petshop-root-cause-analysis"]
+	path = M3_g6_th_apl_cybersecurity_team/Data/petshop-root-cause-analysis
+	url = https://github.com/amazon-science/petshop-root-cause-analysis
+[submodule "M4_g6_th_apl_cybersecurity_team/Data/petshop-root-cause-analysis"]
+	path = M4_g6_th_apl_cybersecurity_team/Data/petshop-root-cause-analysis
+	url = https://github.com/amazon-science/petshop-root-cause-analysis

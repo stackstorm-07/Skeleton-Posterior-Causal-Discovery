@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+causal-cmd.log
+results.zip
+results/_queue_tmp/
+results/_wrong_pickle/
+models/skeleton_posterior_sk*.pkl.tmp
+# version-specific cache written by SkeletonPosterior.load_or_retrain when scikit-learn differs
+# (the shipped models/skeleton_posterior_sk1.9.1.pkl is tracked on purpose)
