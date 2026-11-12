@@ -418,9 +418,9 @@ def main(argv=None):
     a.experiments = a.experiments or GROUPS[a.group or "main"]
     cores = os.cpu_count() or 1
     if "E6" in a.experiments and not a.force and not a.list:
-        if set(a.experiments) != {"E6"}:
-            ap.error("E6 (equal wall-clock budget) must run alone, after the main pass: use --group quiet or --experiments E6 "
-                     "(or --force). --group all is for --list only.")
+        if not set(a.experiments) <= QUIET:
+            ap.error("E6 (equal wall-clock budget) must not share a run with the main-pass experiments: use --group quiet, --experiments E6, or "
+                     "--experiments E6 E8 (or --force). --group all is for --list only.")
         if a.workers > max(1, cores // 2):
             ap.error(f"E6 must run with at most half the cores busy: --workers <= {max(1, cores // 2)} (cpu_count = {cores}; or --force)")
     os.makedirs(a.results_dir, exist_ok=True)

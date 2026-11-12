@@ -407,6 +407,8 @@ class Agg:
                 f["share_floor"] = float(np.median((q["abic"] - q["spot_floor_only"]) / (q["abic"] - q["spot_cal"])))
         self.facts["H3"] = f
         # F4
+        order = [v for v in ("abic", "spot_floor_only", "spot_nofloor", "spot_cal", "spot", "spot_random", "spot_oracle")
+                 if (both["variant"] == v).any()]
         fig, ax = plt.subplots(1, 2, figsize=(7.4, 3.0))
         for k, (m, name) in enumerate(((M_SKEL, "skeleton F1"), ("t_optimize", "optimizer time (s)"))):
             for i, v in enumerate(order):

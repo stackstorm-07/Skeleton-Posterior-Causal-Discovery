@@ -61,6 +61,7 @@ Two passes, one script (`run_all.sh`); details of the experiments and decision r
 cd Code/src
 export CAUSAL_CMD_JAR=/abs/path/causal-cmd-1.3.0-jar-with-dependencies.jar     # Java 17+ needed
 export PETSHOP_ROOT=/abs/path/to/petshop-root-cause-analysis/dataset
+pip install -r requirements.txt
 python tests/run_tests.py --fast                      # 101 passed, 17 skipped without PetShop
 bash run_all.sh main  <physical cores - 1>            # pass 1 (E1-E5, E7, E9, E10, E12, E13) + tables: results/aggregate/, results/m3_report/
 bash run_all.sh quiet <cores / 2>                     # pass 2, machine otherwise idle: E6, E8, scalability, wide posterior + figures

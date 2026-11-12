@@ -76,3 +76,18 @@ Tested: tests/test_wide.py (seeds, subsampling, capped fit), smoke training at 1
 Pilot finding (single graphs, not a result): ABIC with the default start W1 ~ U(-0.5, 0.5) diverges immediately at d = 100 (acyclicity term overflows, 0 edges, h = 3154);
 with the start scaled by sqrt(25/d) it runs. Hence the variants `abic` (default) and `abic_s` (scaled). SPOT runs at d = 100 and 200 with default settings. The optimizer's final
 model-selection step is not covered by the time budget (about 20-40 s extra at d = 75), so wall time exceeds the budget slightly; `t_total` records the real time.
+
+## Fix: PetShop root and the quiet pass of run_all.sh  (12 Nov)
+Two bugs reported from a local run.
+ * **`--group quiet`, `--experiments E6 E8` and therefore `run_all.sh quiet` always errored.** The queue's E6 safety rule was `set(experiments) != {"E6"}` ("E6 must run alone"), which also rejects E8 -
+   the other member of the quiet group. The rule is now `not set(experiments) <= QUIET`: E6 may share a call with E8, not with main-pass experiments (the original intent). Introduced in M3 item 8;
+   the M3 tests only ran E6 alone, so it was not caught (the M3 quiet pass was never run through `--group quiet`).
+ * **"Set PETSHOP_ROOT" although it was set.** `pgm.petshop.default_root` accepted a path only if `os.path.isdir` held, and then said nothing about why it rejected one. New `resolve_root`: expands `~` and `$VARS`,
+   makes relative paths absolute, accepts either the `dataset` folder or the cloned repository, and when it fails lists every candidate it tried with the reason (not set / does not exist / no `low_traffic/graph.csv`).
+   `load_petshop(root=...)` uses it too. Typical real causes: `PETSHOP_ROOT=...` set without `export`, an unexpanded `~`, a path one level too high or too low.
+ * `run_all.sh`: absolute paths and `cd` to its own folder (it can be started from anywhere), a preflight that checks the dataset, the jar and the scikit-learn version and stops with the reason before any work (exit 3 / 4),
+   `export`s the resolved root, clamps quiet-pass workers to cpu_count / 2, runs E6 and E8 as separate queue calls, and appends every step's exit code to `results/run_all_steps.log`
+   (`grep -v 'exit=0' results/run_all_steps.log` lists failures).
+ * Tests: `tests/test_root_and_queue_rules.py` (4): root forms and error texts, `--group quiet` / `E6 E8` accepted and `E3 E6` / `--group all` refused, the preflight exit codes through the real script.
+ * Not run: the full quiet pass (scalability, wide posterior) was NOT run end to end here; only the queue call and the options of the scripts it launches were checked (`--help`). If a later step of the quiet pass fails,
+   `results/run_all_steps.log` says which and its own log in `results/` says why.

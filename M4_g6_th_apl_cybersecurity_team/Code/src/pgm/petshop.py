@@ -18,14 +18,38 @@ from .graphs import ADMG, PAG, dag_with_latents_to_pag
 SCENARIOS = ["low_traffic", "high_traffic", "temporal_traffic1", "temporal_traffic2"]
 
 
+def _scenario_dirs_ok(path: str) -> bool:
+    return os.path.isfile(os.path.join(path, "low_traffic", "graph.csv"))
+
+
+def resolve_root(root: Optional[str] = None) -> str:
+    """The PetShop ``dataset`` directory (the folder that contains ``low_traffic/``, ``high_traffic/``, ...).
+
+    Order: the ``root`` argument, then $PETSHOP_ROOT, then two fallbacks.  ``~`` and ``$VARS`` are expanded, relative paths are made absolute,
+    and a path to the cloned repository (which contains ``dataset/``) is accepted.  On failure the error says WHAT was tried and WHY it was
+    rejected (unset / does not exist / exists but has no ``low_traffic/graph.csv``), so a variable that "is set" but not found can be diagnosed."""
+    tried, notes = [], []
+    cands = [("argument root", root), ("$PETSHOP_ROOT", os.environ.get("PETSHOP_ROOT")),
+             ("fallback /home/claude/ps_data", "/home/claude/ps_data/petshop-root-cause-analysis/dataset"),
+             ("fallback data/petshop/dataset", os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "petshop", "dataset"))]
+    for label, raw in cands:
+        if raw is None or raw == "":
+            if label in ("argument root", "$PETSHOP_ROOT"):
+                notes.append(f"{label}: not set" + (" (an exported variable is needed: `export PETSHOP_ROOT=...`; a plain `PETSHOP_ROOT=...` line is invisible to child processes)" if label == "$PETSHOP_ROOT" else ""))
+            continue
+        path = os.path.abspath(os.path.expanduser(os.path.expandvars(raw)))
+        for cand in (path, os.path.join(path, "dataset")):
+            if _scenario_dirs_ok(cand):
+                return cand
+        tried.append(path)
+        why = "does not exist" if not os.path.isdir(path) else "exists but contains no low_traffic/graph.csv (point at the folder that holds low_traffic/, high_traffic/, ...)"
+        notes.append(f"{label} = {raw!r} -> {path}: {why}")
+    raise FileNotFoundError("PetShop dataset directory not found.\n  " + "\n  ".join(notes) +
+                            "\nSet PETSHOP_ROOT to the `dataset` directory of https://github.com/amazon-science/petshop-root-cause-analysis")
+
+
 def default_root() -> str:
-    for p in [os.environ.get("PETSHOP_ROOT", ""),
-              "/home/claude/ps_data/petshop-root-cause-analysis/dataset",
-              os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "petshop", "dataset")]:
-        if p and os.path.isdir(p):
-            return p
-    raise FileNotFoundError("Set PETSHOP_ROOT to the PetShop `dataset` directory "
-                            "(git clone https://github.com/amazon-science/petshop-root-cause-analysis)")
+    return resolve_root(None)
 
 
 @dataclass
@@ -51,7 +75,7 @@ def _short(n: str) -> str:
 
 def load_petshop(scenario: str = "low_traffic", root: Optional[str] = None, max_missing: float = 0.05,
                  statistic: str = "Average", metric: str = "latency") -> PetShop:
-    root = root or default_root()
+    root = resolve_root(root)
     path = os.path.join(root, scenario)
     G = pd.read_csv(os.path.join(path, "graph.csv"), index_col=0)
     all_nodes = list(G.index)

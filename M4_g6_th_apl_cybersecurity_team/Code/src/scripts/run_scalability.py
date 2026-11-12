@@ -52,7 +52,7 @@ def _job(job):
     post = {}
     for v in job["variants"]:
         if v in ("abic", "abic_s"):
-            res_p, floor, pm, t_post = None, None, {}, 0.0
+            res_p, floor, pm, t_post, pfields = None, None, {}, 0.0, None
         else:
             key = "narrow" if v == "spot_cal" else "wide"
             if key not in post:
@@ -77,7 +77,7 @@ def _job(job):
                    t_posterior=t_post, t_total=wall + t_post, t_scoring=time.perf_counter() - t0,
                    post_log_loss=pm.get("log_loss"), post_auroc=pm.get("auroc"), post_auprc=pm.get("auprc"))
         row.update(extra); row.update(sc); row.update(meter.fields())
-        if v != "abic":
+        if pfields is not None:
             row["posterior_peak_rss_mb"] = pfields["peak_rss_mb"]
         rows.append(row)
     return rows
