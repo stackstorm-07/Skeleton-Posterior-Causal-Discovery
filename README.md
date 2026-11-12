@@ -78,6 +78,6 @@ https://doi.org/10.1145/3637528.3672031
 
 ## Status
 
-**In Progress**
+**Completed**
 
-This repository contains the implementation, experiments, datasets/data-generation scripts, and documentation developed for the **CSE516 – Probabilistic Graphical Models** project.
+This repository contains the implementation, experiments, datasets/data-generation scripts, and documentation developed for the **CSE516 – Probabilistic Graphical Models** project. The final work is found in the Milestone 4 folder.
