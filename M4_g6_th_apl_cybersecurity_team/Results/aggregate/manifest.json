@@ -1,0 +1,104 @@
+{
+ "created": "2026-11-12 11:03:51",
+ "results_dir": "/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/results",
+ "cut": false,
+ "inputs": {
+  "syn_m3_e1.jsonl": {
+   "sha256": "05a97c1925f1c225b1c298854bbb63b01db5aa0d73e6430419df14ada7d7f955",
+   "rows": 90,
+   "rows_after_dedup": 90
+  },
+  "syn_m3_e2.jsonl": {
+   "sha256": "34d3b42ebd7d5127183e43c128a13da4202e1df8945178ada3bf73b896102a8f",
+   "rows": 158,
+   "rows_after_dedup": 158
+  },
+  "ps_m3_e3.jsonl": {
+   "sha256": "651f8e235ad57380c25a7f4fb7198d2b43b9bcba73b7113865489e7651549f5b",
+   "rows": 60,
+   "rows_after_dedup": 60
+  },
+  "ps_m3_e4.jsonl": {
+   "sha256": "88770d5d93878070b6d5fe5a85b2a51ed4c7b4f4a7d18bf9d486cdf7de4033bc",
+   "rows": 48,
+   "rows_after_dedup": 48
+  },
+  "ps_m3_e10.jsonl": {
+   "sha256": "4df8511ac70881d299dee87ea0e36ad921063cfc5c17824d212a18bdfb3cc6a6",
+   "rows": 24,
+   "rows_after_dedup": 24
+  },
+  "ps_m3_e13.jsonl": {
+   "sha256": "66b9eaabc37fa10bcab481f4f7d5302d869c530b73bfc3ec7814fa607fe579be",
+   "rows": 24,
+   "rows_after_dedup": 24
+  },
+  "ps_m3_e6.jsonl": {
+   "sha256": "9bb22624bd9b2d22c5e45e2f49ffd1bff5cb21664cfdbcdbb52760fe13aa829b",
+   "rows": 48,
+   "rows_after_dedup": 48
+  },
+  "boot_main.jsonl": {
+   "sha256": "3bf665c8ccc66355dba14988e8a0f1c7f940f4558fd3c347f7913fd7628330c0",
+   "rows": 120,
+   "rows_after_dedup": 120
+  },
+  "fci_petshop.jsonl": {
+   "sha256": "cccb249b4aac2e9fc6b17a2ba3a05d01c8653b7f91b28765fbd61aa17dae9ad0",
+   "rows": 16,
+   "rows_after_dedup": 16
+  },
+  "fci_syn_e1.jsonl": {
+   "sha256": "4e320cdf815327428fcc3398791c16eacbd123b36a7645b47594f5a123328ae4",
+   "rows": 160,
+   "rows_after_dedup": 160
+  },
+  "post_quality_m3.jsonl": {
+   "sha256": "40d3c427aa74bf6d2d0384ea6721024893f94ee32219de395cacc8c7acc81992",
+   "rows": 15,
+   "rows_after_dedup": 15
+  },
+  "inference_m3.jsonl": {
+   "sha256": "d1068526a4f3c206657b21a358dc7869991c7c9da28d777fac286314e64ea2a4",
+   "rows": 320,
+   "rows_after_dedup": 320
+  },
+  "rca_m3.jsonl": {
+   "sha256": "686c01c4abd6423a04dd5855f92dc5c199dca7114962c31980b0e1174bc1a3a1",
+   "rows": 2232,
+   "rows_after_dedup": 2088
+  }
+ },
+ "tables": [
+  "T0_completeness",
+  "T1_algorithm_kpi",
+  "T1a_synthetic_sample_size",
+  "T1b_synthetic_robustness",
+  "T2_petshop_per_scenario",
+  "T2b_petshop_wlt",
+  "T2c_petshop_bootstrap",
+  "T2d_equal_budget",
+  "T2e_directed_only",
+  "T2f_preprocessing",
+  "T2g_fci_petshop",
+  "T3_ablation",
+  "T3_paired_tests",
+  "T4_anova_E1",
+  "T5_inference",
+  "T6_rca",
+  "T6b_rca_paired",
+  "T7_posterior_quality",
+  "T9_scorecard"
+ ],
+ "figures": [
+  "F1_sample_size_vs_shd",
+  "F2_robustness",
+  "F4_ablation",
+  "F5_bootstrap_delta",
+  "F6_reliability",
+  "F3_accuracy_and_inference_vs_time"
+ ],
+ "notes": [],
+ "seconds": 4.2,
+ "decision_rule": "paired t p<0.05 and Wilcoxon p<0.05 and 95% CI excludes 0"
+}

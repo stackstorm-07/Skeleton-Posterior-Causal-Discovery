@@ -1,0 +1,13 @@
+scenario,variant,n_est_dir,n_est_bidirected
+high_traffic,abic,13.4,39.8
+high_traffic,spot,13.2,37.0
+high_traffic,spot_cal,15.6,32.6
+low_traffic,abic,8.2,25.2
+low_traffic,spot,7.8,22.8
+low_traffic,spot_cal,9.2,20.0
+temporal_traffic1,abic,5.4,32.2
+temporal_traffic1,spot,7.4,28.6
+temporal_traffic1,spot_cal,9.0,26.2
+temporal_traffic2,abic,8.0,29.6
+temporal_traffic2,spot,7.2,30.4
+temporal_traffic2,spot_cal,8.8,27.2

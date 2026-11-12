@@ -1,0 +1,9 @@
+method,metric,vs,scenarios,wins,losses,ties,mean_gain
+SPOT-cal (floor 6e-3),skeleton F1,ABIC,4,4,0,0,0.02901563665000581
+SPOT-cal (floor 6e-3),arrowhead F1,ABIC,4,3,1,0,0.0238671793513007
+SPOT-cal (floor 6e-3),tail F1,ABIC,4,3,1,0,0.03092930762048409
+SPOT-cal (floor 6e-3),SHD (PAG),ABIC,4,4,0,0,3.900000000000002
+SPOT (floor 1e-3),skeleton F1,ABIC,4,4,0,0,0.02603587635095421
+SPOT (floor 1e-3),arrowhead F1,ABIC,4,4,0,0,0.02023324058855558
+SPOT (floor 1e-3),tail F1,ABIC,4,3,1,0,0.03357335646809331
+SPOT (floor 1e-3),SHD (PAG),ABIC,4,4,0,0,2.8000000000000025

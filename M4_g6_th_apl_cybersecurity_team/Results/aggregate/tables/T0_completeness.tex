@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering\footnotesize
+\caption{Experiment completeness: planned jobs (default sizes of the queue) against finished jobs found in the result files}\label{tab:T0_completeness}
+\begin{tabular}{@{}lllllll@{}}
+\toprule
+experiment & files & jobs\_planned & jobs\_finished & rows\_in\_files & status & failed\_logged\\
+\midrule
+E3 & ps\_m3\_e3.jsonl & 60 & 60 & 60.000 & complete & 0\\
+E4 & ps\_m3\_e4.jsonl & 48 & 48 & 48.000 & complete & 0\\
+E5 & boot\_main.jsonl & 120 & 120 & 120.000 & complete & 0\\
+E1 & syn\_m3\_e1.jsonl & 40 & 40 & 40.000 & complete & 0\\
+E9 & fci\_petshop.jsonl, fci\_syn\_e1.jsonl & 44 & 44 & 44.000 & complete & 0\\
+E10 & ps\_m3\_e10.jsonl & 24 & 24 & 24.000 & complete & 0\\
+E2 & syn\_m3\_e2.jsonl & 80 & 79 & 79.000 & UNFINISHED (79/80) & 0\\
+E12 & rca\_m3.jsonl & 12 & 12 & 12.000 & complete & 0\\
+E7 & post\_quality\_m3.jsonl & 5 & 5 & 5.000 & complete & 0\\
+E13 & ps\_m3\_e13.jsonl & 24 & 24 & 24.000 & complete & 0\\
+E6 & ps\_m3\_e6.jsonl & 48 & 48 & 48.000 & complete & 0\\
+E8 & inference\_m3.jsonl & 4 & 4 & 4.000 & complete & 0\\
+E11 & (analysis of the files above) & 0 & 0 & nan & skipped (no --petshop-root) & 0\\
+\bottomrule
+\end{tabular}
+\end{table}

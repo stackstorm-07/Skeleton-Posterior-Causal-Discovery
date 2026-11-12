@@ -1,0 +1,25 @@
+split,comparison,cases,mean_diff_MRR,ci_lo,ci_hi,p_bootstrap,decision
+all,truth graph: ADMG vs directed-only,36,0.0,0.0,0.0,1.0,not distinguishable from noise
+test,truth graph: ADMG vs directed-only,26,0.0,0.0,0.0,1.0,not distinguishable from noise
+all,truth graph ADMG vs no graph (anomaly size),36,0.06758056758056759,0.0013227513227513227,0.14884123977873978,0.047,supported: first better
+test,truth graph ADMG vs no graph (anomaly size),26,0.09357309357309357,0.0021978021978021995,0.205477231102231,0.037,supported: first better
+all,truth graph ADMG vs correlation baseline,36,0.10688932980599647,-0.02953758818342152,0.2348950066137566,0.108,not distinguishable from noise
+test,truth graph ADMG vs correlation baseline,26,0.026205738705738692,-0.1262839590964591,0.1701049297924297,0.73,not distinguishable from noise
+all,abic graph: ADMG vs directed-only,36,-0.014230265619154513,-0.10656044572711239,0.09022433327988877,0.73,not distinguishable from noise
+test,abic graph: ADMG vs directed-only,26,-0.05175472675472676,-0.16870777370777368,0.08989838864838841,0.395,not distinguishable from noise
+all,abic graph ADMG vs no graph (anomaly size),36,-0.016535059590615138,-0.10855125327347549,0.08586585097001764,0.7,not distinguishable from noise
+test,abic graph ADMG vs no graph (anomaly size),26,-0.042125467125467116,-0.16271554834054833,0.09816061253561245,0.466,not distinguishable from noise
+all,abic graph ADMG vs correlation baseline,36,0.022773702634813757,-0.11160109694831916,0.1539940659905937,0.726,not distinguishable from noise
+test,abic graph ADMG vs correlation baseline,26,-0.10949282199282198,-0.24093893375143371,0.014631410256410219,0.08,not distinguishable from noise
+all,spot_cal graph: ADMG vs directed-only,36,0.04879369601591824,-0.03701579670329672,0.1446834865237641,0.285,not distinguishable from noise
+test,spot_cal graph: ADMG vs directed-only,26,0.02909896371434833,-0.07795926473811089,0.15931320638051402,0.688,not distinguishable from noise
+all,spot_cal graph ADMG vs no graph (anomaly size),36,-0.044245055356166484,-0.15297291186180076,0.07152734611067933,0.425,not distinguishable from noise
+test,spot_cal graph ADMG vs no graph (anomaly size),26,-0.08049315357007665,-0.23112352924852927,0.07420228098112684,0.257,not distinguishable from noise
+all,spot_cal graph ADMG vs correlation baseline,36,-0.00493629313073758,-0.14985608013385793,0.13816071852530165,0.936,not distinguishable from noise
+test,spot_cal graph ADMG vs correlation baseline,26,-0.14786050843743154,-0.2971219983719984,-0.00875256331987111,0.036,supported: first worse
+all,ADMG ranking: true graph vs ABIC graph,36,0.08411562717118273,0.03044348912404469,0.13579593888621666,0.001,supported: first better
+test,ADMG ranking: true graph vs ABIC graph,26,0.13569856069856068,0.0851544289044289,0.18909784659784654,0.0,supported: first better
+all,ADMG ranking: true graph vs SPOT-cal graph,36,0.11182562293673406,0.03945365848143626,0.1873622840636728,0.0,supported: first better
+test,ADMG ranking: true graph vs SPOT-cal graph,26,0.17406624714317023,0.09429344337998186,0.2685943810463041,0.0,supported: first better
+all,ADMG ranking: SPOT-cal graph vs ABIC graph,36,-0.02770999576555133,-0.06931043236598791,0.008483061434450259,0.155,not distinguishable from noise
+test,ADMG ranking: SPOT-cal graph vs ABIC graph,26,-0.038367686444609535,-0.0973916557089634,0.010760893308970185,0.134,not distinguishable from noise

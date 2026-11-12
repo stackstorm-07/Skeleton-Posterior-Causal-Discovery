@@ -1,0 +1,17 @@
+scenario,method,skeleton_F1,arrowhead_F1,tail_F1,SHD,est_edges,time_s
+low,FCI (alpha=0.01),0.545,0.238,0.000,36,24,2.6
+low,FCI (alpha=0.05),0.562,0.343,0.000,41,33,2.9
+low,RFCI (alpha=0.01),0.556,0.356,0.154,32,23,2.5
+low,RFCI (alpha=0.05),0.562,0.329,0.111,42,33,2.7
+high,FCI (alpha=0.01),0.480,0.192,0.000,50,37,2.8
+high,FCI (alpha=0.05),0.535,0.238,0.111,56,48,3.1
+high,RFCI (alpha=0.01),0.480,0.194,0.000,50,37,2.8
+high,RFCI (alpha=0.05),0.518,0.247,0.105,54,47,2.8
+temporal 1,FCI (alpha=0.01),0.482,0.259,0.211,58,50,4.1
+temporal 1,FCI (alpha=0.05),0.452,0.217,0.200,68,60,4.7
+temporal 1,RFCI (alpha=0.01),0.519,0.294,0.211,54,48,3.6
+temporal 1,RFCI (alpha=0.05),0.478,0.219,0.100,67,59,3.7
+temporal 2,FCI (alpha=0.01),0.482,0.259,0.211,58,50,3.5
+temporal 2,FCI (alpha=0.05),0.452,0.217,0.200,68,60,3.2
+temporal 2,RFCI (alpha=0.01),0.519,0.288,0.211,54,48,2.8
+temporal 2,RFCI (alpha=0.05),0.473,0.217,0.190,67,60,3.9

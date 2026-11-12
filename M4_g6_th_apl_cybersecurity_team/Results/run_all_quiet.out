@@ -1,0 +1,5 @@
+nohup: ignoring input
+jar: /home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/causal-cmd-1.3.0-jar-with-dependencies.jar
+PetShop root: /home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Data/petshop-root-cause-analysis/dataset
+scikit-learn 1.9.1
+run_all.sh: line 39: 139377 Killed                     "$@"

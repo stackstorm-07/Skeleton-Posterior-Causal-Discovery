@@ -1,0 +1,73 @@
+12 jobs (36 runs), up to 6.0 core-hours, 6 workers, about 1.0 h wall; variants ['abic', 'abic_s', 'spot_cal']; wide floor None; narrow model skeleton_posterior_sk1.9.1.pkl
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:219: RuntimeWarning: overflow encountered in multiply
+  gW1 = gW1_ls + c * gW1_h
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:220: RuntimeWarning: overflow encountered in multiply
+  G2 = gW2_ls + c * gW2_h
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:219: RuntimeWarning: overflow encountered in multiply
+  gW1 = gW1_ls + c * gW1_h
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:220: RuntimeWarning: overflow encountered in multiply
+  G2 = gW2_ls + c * gW2_h
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:219: RuntimeWarning: overflow encountered in multiply
+  gW1 = gW1_ls + c * gW1_h
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:220: RuntimeWarning: overflow encountered in multiply
+  G2 = gW2_ls + c * gW2_h
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:133: RuntimeWarning: overflow encountered in matmul
+  Ts[k] = I + P @ Ts[k + 1] / (k + 1)
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:133: RuntimeWarning: invalid value encountered in matmul
+  Ts[k] = I + P @ Ts[k + 1] / (k + 1)
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:139: RuntimeWarning: overflow encountered in matmul
+  gP += G @ Ts[k + 1].T / (k + 1)
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:140: RuntimeWarning: overflow encountered in matmul
+  G = P.T @ G / (k + 1)
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:140: RuntimeWarning: invalid value encountered in matmul
+  G = P.T @ G / (k + 1)
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:219: RuntimeWarning: overflow encountered in multiply
+  gW1 = gW1_ls + c * gW1_h
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:220: RuntimeWarning: overflow encountered in multiply
+  G2 = gW2_ls + c * gW2_h
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:133: RuntimeWarning: overflow encountered in matmul
+  Ts[k] = I + P @ Ts[k + 1] / (k + 1)
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:133: RuntimeWarning: invalid value encountered in matmul
+  Ts[k] = I + P @ Ts[k + 1] / (k + 1)
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:139: RuntimeWarning: overflow encountered in matmul
+  gP += G @ Ts[k + 1].T / (k + 1)
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:140: RuntimeWarning: overflow encountered in matmul
+  G = P.T @ G / (k + 1)
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:140: RuntimeWarning: invalid value encountered in matmul
+  G = P.T @ G / (k + 1)
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:219: RuntimeWarning: overflow encountered in multiply
+  gW1 = gW1_ls + c * gW1_h
+/home/tartar/Desktop/work/CSE516_PGM/Skeleton-Posterior-Causal-Discovery/M4_g6_th_apl_cybersecurity_team/Code/src/pgm/dcd.py:220: RuntimeWarning: overflow encountered in multiply
+  G2 = gW2_ls + c * gW2_h
+d=100 s2 abic      skelF1 0.000 shd 132 t 18s timed_out False rss 357MB  [22 min]
+d=100 s2 abic_s    skelF1 0.728 shd 144 t 640s timed_out True rss 357MB  [22 min]
+d=100 s2 spot_cal  skelF1 0.757 shd 110 t 642s timed_out True rss 369MB  [22 min]
+d=100 s1 abic      skelF1 0.000 shd 136 t 14s timed_out False rss 358MB  [23 min]
+d=100 s1 abic_s    skelF1 0.620 shd 182 t 686s timed_out True rss 363MB  [23 min]
+d=100 s1 spot_cal  skelF1 0.667 shd 109 t 667s timed_out True rss 368MB  [23 min]
+d=100 s0 abic      skelF1 0.000 shd 126 t 18s timed_out False rss 358MB  [23 min]
+d=100 s0 abic_s    skelF1 0.777 shd 145 t 698s timed_out True rss 363MB  [23 min]
+d=100 s0 spot_cal  skelF1 0.834 shd 104 t 679s timed_out True rss 368MB  [23 min]
+d= 50 s0 abic      skelF1 0.686 shd 79 t 493s timed_out False rss 232MB  [25 min]
+d= 50 s0 abic_s    skelF1 0.718 shd 70 t 393s timed_out False rss 232MB  [25 min]
+d= 50 s0 spot_cal  skelF1 0.736 shd 68 t 610s timed_out True rss 238MB  [25 min]
+d= 25 s1 abic      skelF1 0.718 shd 46 t 100s timed_out False rss 200MB  [31 min]
+d= 25 s1 abic_s    skelF1 0.718 shd 46 t 106s timed_out False rss 200MB  [31 min]
+d= 25 s1 spot_cal  skelF1 0.737 shd 46 t 162s timed_out False rss 204MB  [31 min]
+d= 25 s0 abic      skelF1 0.567 shd 47 t 319s timed_out False rss 200MB  [34 min]
+d= 25 s0 abic_s    skelF1 0.567 shd 47 t 247s timed_out False rss 200MB  [34 min]
+d= 25 s0 spot_cal  skelF1 0.724 shd 35 t 95s timed_out False rss 200MB  [34 min]
+d= 25 s2 abic      skelF1 0.676 shd 42 t 132s timed_out False rss 200MB  [38 min]
+d= 25 s2 abic_s    skelF1 0.676 shd 42 t 145s timed_out False rss 195MB  [38 min]
+d= 25 s2 spot_cal  skelF1 0.740 shd 40 t 149s timed_out False rss 200MB  [38 min]
+d= 25 s3 abic      skelF1 0.747 shd 36 t 168s timed_out False rss 200MB  [41 min]
+d= 25 s3 abic_s    skelF1 0.747 shd 36 t 172s timed_out False rss 200MB  [41 min]
+d= 25 s3 spot_cal  skelF1 0.853 shd 25 t 77s timed_out False rss 204MB  [41 min]
+d= 50 s2 abic      skelF1 0.719 shd 78 t 440s timed_out False rss 248MB  [46 min]
+d= 50 s2 abic_s    skelF1 0.702 shd 84 t 411s timed_out False rss 234MB  [46 min]
+d= 50 s2 spot_cal  skelF1 0.859 shd 53 t 497s timed_out False rss 237MB  [46 min]
+d= 50 s1 abic      skelF1 0.592 shd 80 t 610s timed_out True rss 247MB  [50 min]
+d= 50 s1 abic_s    skelF1 0.657 shd 75 t 464s timed_out False rss 247MB  [50 min]
+d= 50 s1 spot_cal  skelF1 0.681 shd 72 t 593s timed_out False rss 256MB  [50 min]
+/usr/lib/python3.14/multiprocessing/resource_tracker.py:475: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown: {'/loky-139378-041acd12', '/loky-139378-9zndby3m', '/loky-139378-wg1ahhmx', '/loky-139378-mjkrmwmv', '/loky-139378-2zahkdhi', '/loky-139378-iz59w5wz'}
+  warnings.warn(

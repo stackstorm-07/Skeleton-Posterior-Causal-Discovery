@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering\footnotesize
+\caption{PetShop block bootstrap (E5): mean $\pm$ SD over resamples}\label{tab:T2c_petshop_bootstrap}
+\begin{tabular}{@{}lllllllll@{}}
+\toprule
+scenario & method & resamples & block\_len & skeleton F1 & arrowhead F1 & tail F1 & SHD (PAG) & time (s)\\
+\midrule
+high & ABIC & 20 & 8 & 0.466 $\pm$ 0.043 & 0.217 $\pm$ 0.042 & 0.080 $\pm$ 0.100 & 65.00 $\pm$ 5.09 & 407.19 $\pm$ 153.10\\
+high & SPOT-cal (floor 6e-3) & 20 & 8 & 0.505 $\pm$ 0.040 & 0.241 $\pm$ 0.047 & 0.082 $\pm$ 0.078 & 60.20 $\pm$ 5.54 & 209.62 $\pm$ 165.20\\
+low & ABIC & 20 & 8 & 0.488 $\pm$ 0.036 & 0.265 $\pm$ 0.042 & 0.012 $\pm$ 0.037 & 44.20 $\pm$ 2.31 & 164.53 $\pm$ 81.44\\
+low & SPOT-cal (floor 6e-3) & 20 & 8 & 0.499 $\pm$ 0.041 & 0.265 $\pm$ 0.050 & 0.043 $\pm$ 0.069 & 42.95 $\pm$ 3.68 & 46.57 $\pm$ 39.37\\
+temporal 1 & ABIC & 20 & 12 & 0.518 $\pm$ 0.032 & 0.336 $\pm$ 0.052 & 0.043 $\pm$ 0.083 & 44.60 $\pm$ 3.76 & 191.72 $\pm$ 145.59\\
+temporal 1 & SPOT-cal (floor 6e-3) & 20 & 12 & 0.535 $\pm$ 0.049 & 0.352 $\pm$ 0.053 & 0.108 $\pm$ 0.069 & 42.25 $\pm$ 3.75 & 95.53 $\pm$ 83.06\\
+\bottomrule
+\end{tabular}
+\end{table}

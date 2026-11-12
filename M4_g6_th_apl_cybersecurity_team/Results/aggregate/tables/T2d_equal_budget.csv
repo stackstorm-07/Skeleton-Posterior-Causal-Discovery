@@ -1,0 +1,5 @@
+budget_s,method,units,skeleton_F1,SHD,converged,timed_out,timing_quiet
+60.0,ABIC,12,0.497 ± 0.054,47.75 ± 8.26,1/12,11/12,True
+60.0,SPOT-cal (floor 6e-3),12,0.532 ± 0.043,45.42 ± 6.93,11/12,1/12,True
+120.0,ABIC,12,0.516 ± 0.040,48.67 ± 7.73,6/12,7/12,True
+120.0,SPOT-cal (floor 6e-3),12,0.532 ± 0.043,45.42 ± 6.93,12/12,0/12,True

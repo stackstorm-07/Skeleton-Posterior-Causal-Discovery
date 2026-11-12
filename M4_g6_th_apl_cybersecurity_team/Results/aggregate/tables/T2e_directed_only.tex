@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering\footnotesize
+\caption{Directed-only learner (E10) against the ADMG learners on the same (scenario, seed) units}\label{tab:T2e_directed_only}
+\begin{tabular}{@{}llllllll@{}}
+\toprule
+method & units & skeleton F1 & arrowhead F1 & tail F1 & SHD (PAG) & time (s) & est\_bidirected\\
+\midrule
+ABIC & 12 & 0.511 $\pm$ 0.025 & 0.301 $\pm$ 0.046 & 0.056 $\pm$ 0.070 & 48.42 $\pm$ 6.99 & 393.60 $\pm$ 260.75 & 31.6\\
+ABIC directed-only & 12 & 0.458 $\pm$ 0.048 & 0.049 $\pm$ 0.062 & 0.030 $\pm$ 0.057 & 43.17 $\pm$ 6.09 & 82.03 $\pm$ 49.40 & 0.0\\
+SPOT-cal (floor 6e-3) & 12 & 0.532 $\pm$ 0.043 & 0.301 $\pm$ 0.074 & 0.085 $\pm$ 0.098 & 45.42 $\pm$ 6.93 & 49.72 $\pm$ 15.35 & 25.8\\
+SPOT-cal directed-only & 12 & 0.459 $\pm$ 0.078 & 0.030 $\pm$ 0.038 & 0.008 $\pm$ 0.027 & 41.67 $\pm$ 4.79 & 42.12 $\pm$ 22.22 & 0.0\\
+\bottomrule
+\end{tabular}
+\end{table}
