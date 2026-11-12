@@ -20,7 +20,7 @@ The code is under `src/`; run every command below from `Code/src`.
 
 ## 2. Environment
 
-The submitted results were produced with:
+The submitted results were produced on an x86_64 Linux machine (Arch Linux, but any distribution with python 3.13 and Java >= 17 should work) with:
 
 | Item | Version |
 |---|---|

@@ -42,13 +42,13 @@ Hypothesis scorecard: H1 partly supported, H2 supported, H3 partly supported, H4
 | Path | What it is | Status |
 |---|---|---|
 | `README.md` | this file | done |
-| `Report/M4_g6_th_apl_cybersecurity_team_Report.pdf` | conference-style report | add before submitting |
-| `Video/M4_g6_th_apl_cybersecurity_team_Video_Link.txt` (or the video file) | demo/walkthrough video | add before submitting |
-| `Presentation/M4_g6_th_apl_cybersecurity_team_Slides.pdf` | slides | add before submitting |
+| `Report/M4_g6_th_apl_cybersecurity_team_Report.pdf` | conference-style report | done |
+| `Video/M4_g6_th_apl_cybersecurity_team_Video_Link.txt` (or the video file) | demo/walkthrough video | done |
+| `Presentation/M4_g6_th_apl_cybersecurity_team_Slides.pdf` | slides | done |
 | `Code/src/` | complete source: model, learning, inference, baselines, scripts, tests | done |
 | `Code/README.md` | setup, environment, run commands, seeds, result-generation scripts | done |
-| `Data/README.md` | where to get PetShop and how to prepare it | add (PetShop is not redistributed here) |
-| `Results/` | final tables, figures and statistical outputs (`aggregate/`) and the raw result files (`*.jsonl`) | copy from `Code/src/results/` |
+| `Data/README.md` | where to get PetShop and how to prepare it | done (PetShop is in repo as a submodule) |
+| `Results/` | final tables, figures and statistical outputs (`aggregate/`) and the raw result files (`*.jsonl`) | copied from `Code/src/results/` |
 
 Individual Google forms are submitted separately by each team member.
 
